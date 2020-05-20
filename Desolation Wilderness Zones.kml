@@ -1,1653 +1,454 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>Desolation Wilderness Zones</name>
-	<open>1</open>
-	<Style id="style">
-		<LineStyle>
-			<color>ffff9600</color>
-			<width>2</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ff9600</color>
-			<width>2.0</width>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style0">
-		<LineStyle>
-			<color>ffff9600</color>
-			<width>2</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ff9600</color>
-			<width>2.0</width>
-		</PolyStyle>
-	</Style>
+<Folder>
+	<name>Waypoints</name>
+	<visibility>0</visibility>
 	<Folder>
-		<name>Markers</name>
+		<name>Trailheads</name>
 		<visibility>0</visibility>
-		<open>1</open>
-		<Folder>
-			<name>Trailheads</name>
+		<Placemark>
+			<name>Bayview TH</name>
 			<visibility>0</visibility>
-			<Placemark>
-				<name>Bayview TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0999848764673,38.94358527571129,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Eagle Falls TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1132779043451,38.95199813436921,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Echo Lakes TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0442349785297,38.83485288575237,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Glen Alpine TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0804994307492,38.87713465937943,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Highland TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.306072364676,38.94287915661263,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Loon Lake TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.3145661253714,38.98229882819395,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Lyons Creek TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2394221612613,38.81041010789914,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Meeks Bay TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1264580083888,39.03739841801672,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Mt Tallac TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0681827820161,38.92140946111773,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Pyramid Creek TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1235769139874,38.81172124544507,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Ralston TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1171802378821,38.8040306915554,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Red Peak TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.3114128203263,38.93830120374376,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Rockbound TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2390413918471,38.8482232487512,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Twin Lakes TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2262995495489,38.85038100245647,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Van Vleck TH</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.3214160298148,38.93115043894272,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>Parking Lots</name>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0999848764673,38.94358527571129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eagle Falls TH</name>
 			<visibility>0</visibility>
-			<Placemark>
-				<name>Bayview Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0996286424454,38.94406958472111,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Echo Lakes Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0426649848459,38.83364673291103,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Glen Alpine Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0797331367262,38.87681113217686,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Loon Lake Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.314915315919,38.98178100316568,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Lyons Creek Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2396501490276,38.81006525014821,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Meeks Bay Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.126307744098,39.03724949928935,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Mt Tallac Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0682364261964,38.92177151674391,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Pyramid Creek (Twin Bridges) Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1241106735813,38.81151642481279,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Ralston Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.1175021029639,38.80384361580753,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Rockbound Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2396123356795,38.84779814981481,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Twin Lakes Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.2255491094512,38.84935225344368,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Van Vleck (Tells Creek) Parking</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.3214248418928,38.93111341056719,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>Boat Ramps</name>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.1132779043451,38.95199813436921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Echo Lakes TH</name>
 			<visibility>0</visibility>
-			<Placemark>
-				<name>Echo Chalet Boat Dock</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=boatlaunch,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0444679921867,38.83470892863853,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Upper Echo Lake Wilderness Dock</name>
-				<visibility>0</visibility>
-				<Style>
-					<IconStyle>
-						<Icon>
-							<href>http://caltopo.com/icon.png?cfg=boatlaunch,FF0000</href>
-						</Icon>
-						<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-					</IconStyle>
-				</Style>
-				<Point>
-					<coordinates>-120.0785795772356,38.84650201026926,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0442349785297,38.83485288575237,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Glen Alpine TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0804994307492,38.87713465937943,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highland TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.306072364676,38.94287915661263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Loon Lake TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.3145661253714,38.98229882819395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lyons Creek TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.2394221612613,38.81041010789914,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Meeks Bay TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.1264580083888,39.03739841801672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt Tallac TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0681827820161,38.92140946111773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pyramid Creek TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.1235769139874,38.81172124544507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ralston TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.1171802378821,38.8040306915554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Red Peak TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.3114128203263,38.93830120374376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rockbound TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.2390413918471,38.8482232487512,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Twin Lakes TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.2262995495489,38.85038100245647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Van Vleck TH</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=hiking,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.3214160298148,38.93115043894272,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
-		<name>Lines and Polygons</name>
-		<open>1</open>
+		<name>Parking Lots</name>
+		<visibility>0</visibility>
 		<Placemark>
-			<name>Zone 01 - Rockbound</name>
-			<styleUrl>#stylemap_id0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2514171646084,38.99576634087251,0 -120.2511596725429,38.99423206406897,0 -120.2479410217251,38.99236420393299,0 -120.2428340957607,38.99243091407246,0 -120.2394866989101,38.99102998793918,0 -120.2372121856655,38.98889519003354,0 -120.2361822174038,38.98852826515913,0 -120.2332639739956,38.9909299207257,0 -120.2329635665859,38.99229749373067,0 -120.2308607147182,38.99529939058408,0 -120.2276420639003,38.99790093152417,0 -120.2309894607509,39.00090259068381,0 -120.2323627517666,39.00370402434387,0 -120.2441215560878,39.0013028022839,0 -120.2513742492641,38.99573298738265,0 -120.2514171646084,38.99576634087251,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<name>Bayview Parking</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0996286424454,38.94406958472111,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 02 - General Creek</name>
+			<name>Echo Lakes Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2324056671108,39.00368676508475,0 -120.2030730293239,39.01005581661035,0 -120.2042961166347,39.01205659306674,0 -120.2045106933559,39.01264014220489,0 -120.2043604896511,39.01354046571566,0 -120.1975154922451,39.02095907686385,0 -120.1970648811306,39.02130916284697,0 -120.1952624366726,39.01910859358432,0 -120.1942324684108,39.01859178329603,0 -120.1933312461818,39.01822501241273,0 -120.191013817593,39.01659119172882,0 -120.1896190689052,39.01595765926584,0 -120.1886963890041,39.01475726640209,0 -120.1877093360866,39.01402622658827,0 -120.1864433334316,39.01209219745575,0 -120.1864862487758,39.01115850928966,0 -120.1857781455959,39.01012476872788,0 -120.1754140899624,39.01017478878033,0 -120.1745986984218,39.01154198984953,0 -120.1735043571438,39.01214221611679,0 -120.1720237777675,39.01217556187118,0 -120.1693630264248,39.01495957760744,0 -120.168869499966,39.01575983949121,0 -120.1658654258693,39.01866071290236,0 -120.1654577300991,39.0189774677345,0 -120.1650285766567,39.01906082403344,0 -120.1638698623623,39.02002774991945,0 -120.1632475898708,39.02077794192825,0 -120.1610696361507,39.0193566492672,0 -120.1613593147243,39.01690594330674,0 -120.1595139549221,39.01689790061043,0 -120.1583766982998,39.0175731036637,0 -120.162196163937,39.01449712642793,0 -120.1628184364284,39.01341341693825,0 -120.1660907314266,39.01093803354138,0 -120.1682364986385,39.00895389907678,0 -120.1694166706051,39.0075866479789,0 -120.1696956203426,39.00621937045274,0 -120.1695668743099,39.00543984369299,0 -120.1702535198177,39.00187141902796,0 -120.1703822658504,39.00123948572821,0 -120.1690304325069,38.99968865177978,0 -120.1688802288021,38.99920505144545,0 -120.1687943981136,38.99682035318766,0 -120.1677215145076,38.99555292839998,0 -120.1660478160824,38.99453563681955,0 -120.1652967975582,38.99360171692,0 -120.1650607631649,38.99198581147695,0 -120.164545779034,38.99043477471606,0 -120.1637733028377,38.9892506269969,0 -120.1608979747738,38.987999745214,0 -120.1599323795284,38.98716581174453,0 -120.1579797313656,38.98364650429379,0 -120.1571857974971,38.98271383210965,0 -120.1559841678585,38.98199659636456,0 -120.1558554218258,38.98189651638062,0 -120.1537954853023,38.98161295565781,0 -120.1516711757625,38.9809290692422,0 -120.1504266307796,38.97974476250793,0 -120.1492464588131,38.97926102589035,0 -120.1456201122249,38.97857711675749,0 -120.143474345013,38.97811005306588,0 -120.1426804111446,38.97735940853577,0 -120.1428091571773,38.97634434985108,0 -120.1424872920955,38.97495978699758,0 -120.1414787815059,38.97374201657115,0 -120.1402556941951,38.9726910471776,0 -120.1396548793758,38.97045560009521,0 -120.1389896915401,38.96830349856175,0 -120.1387321994747,38.9671189806724,0 -120.1380026386226,38.96596781050584,0 -120.1387751148189,38.96531851669437,0 -120.1414573238338,38.96463447291474,0 -120.1435816333736,38.96388368555363,0 -120.1496112392391,38.9631495746628,0 -120.1584303424801,38.96109736068203,0 -120.1623570964779,38.96073029175191,0 -120.1678073451961,38.96179812335889,0 -120.1693093822445,38.9624322740774,0 -120.1711332843746,38.9623321664439,0 -120.1720774219478,38.96168146337858,0 -120.172463660046,38.96019650323401,0 -120.1711547420467,38.95879493926809,0 -120.1705324695553,38.95766031956198,0 -120.1701462314571,38.95667585539113,0 -120.1685798213924,38.95522416293223,0 -120.1662409351314,38.95085524756096,0 -120.1649749324764,38.94851898429125,0 -120.1623141811336,38.94589894031431,0 -120.1599538372005,38.94252778587032,0 -120.1574647472347,38.9387225278816,0 -120.1574003742183,38.93763879459868,0 -120.1591599033321,38.93730498519411,0 -120.1613700435604,38.9386068329859,0 -120.1634728954281,38.93905746703759,0 -120.1652967975582,38.93808943480228,0 -120.167957548901,38.93802267347134,0 -120.1707899616207,38.93964161802745,0 -120.1722276256527,38.9398584442869,0 -120.1773130939449,38.93955802529752,0 -120.179136996075,38.94019224167116,0 -120.1801884220089,38.9401421721637,0 -120.1812183902706,38.94294601013267,0 -120.1824200199093,38.94384679580845,0 -120.1870977924312,38.94614983621641,0 -120.188320879742,38.94676730534601,0 -120.1905310199703,38.94978782006546,0 -120.1930630252804,38.95115618768531,0 -120.1961529300655,38.95287495348354,0 -120.1964533374752,38.95389284367316,0 -120.1958525226558,38.95464373690173,0 -120.1946079776729,38.95517770057943,0 -120.1948869274105,38.95657896351433,0 -120.1957452342952,38.95766354340241,0 -120.1970756099666,38.95854788087139,0 -120.1986420200313,38.96191827342882,0 -120.1990711734737,38.96377025257,0 -120.2000367687191,38.96553876403807,0 -120.2011311099971,38.96668994117677,0 -120.2071392581905,38.97656550030402,0 -120.2092206523861,38.9798014361406,0 -120.2123105571712,38.98283722254717,0 -120.2133834407772,38.98553929655427,0 -120.2155506656612,38.9887416210863,0 -120.2198851154293,38.99207675114456,0 -120.2234256313289,38.99417809886614,0 -120.2276527927364,38.99789699785342,0 -120.231000189587,39.00091487939621,0 -120.2323305652584,39.00369963770041,0 -120.2324056671108,39.00368676508475,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.0426649848459,38.83364673291103,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 03 - Genevieve</name>
+			<name>Glen Alpine Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1583980882739,39.01758929118642,0 -120.1555656755542,39.01568870359652,0 -120.1565741861438,39.01235421598082,0 -120.1594065988635,39.01022006139577,0 -120.1596640909289,39.00850268711868,0 -120.1592563951587,39.00788575608192,0 -120.1570677126025,39.00713542729903,0 -120.1553725565051,39.00588486164064,0 -120.1551150644397,39.00410312047664,0 -120.157689985094,39.00021779094915,0 -120.1562952364062,38.99583194805612,0 -120.1522182787036,38.99379845983429,0 -120.150308545885,38.99259769090628,0 -120.150136884508,38.99027948214995,0 -120.1501797998523,38.98711058476103,0 -120.1505660379504,38.98584495164679,0 -120.1517247522449,38.98441053633314,0 -120.1559304559802,38.9819252596058,0 -120.1572393739795,38.98270921537558,0 -120.1580333078479,38.98367663818934,0 -120.1599644983386,38.98722930165525,0 -120.1609730089282,38.98801272942998,0 -120.1638054216479,38.9892302544289,0 -120.1646422708606,38.99054782638051,0 -120.1651143396472,38.99204882783054,0 -120.1653718317126,38.99363318371523,0 -120.1661228502368,38.99460045723887,0 -120.1678823793506,38.99565110143168,0 -120.1688479745959,38.99690184798959,0 -120.1688479745959,38.99915313608413,0 -120.1690840089892,38.99978681907373,0 -120.1704143846606,39.00123713456817,0 -120.1695560777759,39.0054392235896,0 -120.1697277391528,39.006206244647,0 -120.1694702470874,39.00745680462373,0 -120.1683544481372,39.00890742649892,0 -120.1662086809253,39.01085778548263,0 -120.1627969110583,39.01337539144326,0 -120.1622390115832,39.01445910151566,0 -120.1583659017657,39.01754746655384,0 -120.1583980882739,39.01758929118642,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.0797331367262,38.87681113217686,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 04 - Grouse Lakes</name>
+			<name>Loon Lake Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ffff9600</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff9600</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1555549467181,39.01563174998184,0 -120.1442682111835,39.00816227335608,0 -120.1436673963641,39.0080955780473,0 -120.1437103117084,39.00656156858837,0 -120.1407920683002,39.0048274308804,0 -120.1383458936786,39.00472738317715,0 -120.1376592481708,39.00379359779037,0 -120.1380025709247,39.00209274273674,0 -120.1402770841693,39.00105886968332,0 -120.1411353910541,38.99962476269391,0 -120.1411353910541,38.9985575014182,0 -120.1394187772845,38.99762363459651,0 -120.1392900312518,38.99662304932493,0 -120.1360284650897,38.99645628373744,0 -120.1333247984027,38.99742351867408,0 -120.1319515073871,38.99719004938259,0 -120.1302778089618,38.99592263121647,0 -120.1281320417499,38.99545568195936,0 -120.1252567136859,38.99318759888232,0 -120.1249992216205,38.9916866215835,0 -120.1252567136859,38.99069246494226,0 -120.1241838300799,38.98979185063302,0 -120.124741729555,38.9888578681341,0 -120.1238834226703,38.98762365807204,0 -120.1230251157855,38.98732344155976,0 -120.1224672163104,38.98635606858107,0 -120.121136840639,38.98518853186322,0 -120.1200210416888,38.9839542578236,0 -120.1178752744769,38.98235300538115,0 -120.1153432691669,38.9810186006806,0 -120.1144849622821,38.97935055943798,0 -120.1138412321185,38.97898358509102,0 -120.1142703855609,38.97714868482745,0 -120.1139699781512,38.97488001513173,0 -120.1146137083148,38.97431283635156,0 -120.1135408247088,38.97361219746927,0 -120.1122533643817,38.97397919965304,0 -120.1119100416278,38.97397919965304,0 -120.1107942426776,38.97464647147824,0 -120.1100646818255,38.9742461091376,0 -120.1098286474322,38.97334454509996,0 -120.1091205442523,38.97281071832925,0 -120.1087986791705,38.97267726100787,0 -120.1083051527118,38.97227688753481,0 -120.1092922056293,38.97182646467223,0 -120.110150512514,38.97109243609182,0 -120.1103650892352,38.97007479297603,0 -120.1104080045795,38.96905713523915,0 -120.1100432241534,38.96869010754985,0 -120.1100861394977,38.96833976116326,0 -120.1100646818255,38.9677057966304,0 -120.1100432241534,38.96717192735983,0 -120.1092063749408,38.96610417674803,0 -120.1090132558917,38.9655202438248,0 -120.1096355283832,38.96490293807225,0 -120.1100861394977,38.9642188902799,0 -120.1103436315631,38.96363494181671,0 -120.1110088193988,38.96283409038315,0 -120.1119744146442,38.96183301336084,0 -120.1131975019549,38.96123236035797,0 -120.113927062807,38.96073181229909,0 -120.1151716077899,38.96053159208542,0 -120.1156436765765,38.96001435391472,0 -120.115729507265,38.95177377414269,0 -120.1176177824115,38.95050554292919,0 -120.1199352110004,38.95008835664889,0 -120.1215874517535,38.94851971426143,0 -120.1222526395892,38.94671740142996,0 -120.1225315893268,38.94466633512578,0 -120.1239048803424,38.94444938069594,0 -120.1256000364398,38.94318101843491,0 -120.1263081396197,38.94187925462474,0 -120.1256214941119,38.94027705097052,0 -120.1244627798175,38.9395593855101,0 -120.1223170126056,38.93937579550465,0 -120.1208149755572,38.93977635490372,0 -120.1204931104755,38.93986108986065,0 -120.1213514173602,38.93807524722968,0 -120.1229607427692,38.93583870797957,0 -120.124548610506,38.93452011820634,0 -120.1259648168658,38.9339693076238,0 -120.1288186872577,38.93420298536309,0 -120.1304280126666,38.93495408716742,0 -120.1305567586993,38.93563841744131,0 -120.1300203168963,38.93957736085912,0 -120.1305138433551,38.94102937378712,0 -120.1318871343707,38.94174702436914,0 -120.1327239835834,38.94254811411336,0 -120.1362001264667,38.94313182013283,0 -120.1392471159076,38.94313182013283,0 -120.1401483381366,38.94254769789709,0 -120.142744716463,38.94233073698383,0 -120.1457273328876,38.94256438717063,0 -120.1468002164935,38.9418801237349,0 -120.1475726926898,38.94318158489475,0 -120.147615608034,38.94620225239759,0 -120.1484095419025,38.94773756996937,0 -120.14868849164,38.94975679571379,0 -120.1430665815448,38.95366158149274,0 -120.1418005788898,38.95554668065918,0 -120.1410495603656,38.95699836651133,0 -120.1399552190875,38.95776591252942,0 -120.1393973196124,38.95971811167568,0 -120.1386463010882,38.96136993048248,0 -120.1366078222369,38.96345505987266,0 -120.1346766317462,38.96310468759481,0 -120.1324450338458,38.96477311149304,0 -120.1311361158465,38.96639144513283,0 -120.1305353010272,38.96902710961483,0 -120.1323377454852,38.97111245899634,0 -120.1330458486651,38.97443220853609,0 -120.1340114439105,38.97710124104035,0 -120.1357495153522,38.98001992238474,0 -120.1390539968585,38.98342265266471,0 -120.1388179624652,38.98474033271735,0 -120.1394402349567,38.98617474134857,0 -120.1417362058734,38.98835965677912,0 -120.1485597456073,38.99194497305881,0 -120.1503407323932,38.99261207557537,0 -120.1521217191791,38.99381284425931,0 -120.1562630498981,38.99589746372467,0 -120.1576577985858,39.0001832484275,0 -120.1551472509479,39.00405148051024,0 -120.1553189123248,39.00583566036064,0 -120.1571428144549,39.00725296742218,0 -120.1592027509784,39.00790325174665,0 -120.1595889890765,39.00847016140821,0 -120.1593529546832,39.01017086313117,0 -120.1565419996356,39.01233836487837,0 -120.155533489046,39.01567238237264,0 -120.1555549467181,39.01563174998184,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.314915315919,38.98178100316568,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 05 - Brown Mountain</name>
+			<name>Lyons Creek Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2514600122546,38.99572832303166,0 -120.2530478799914,38.99670366451526,0 -120.255300935564,38.99932182973362,0 -120.2858566606616,38.98928412003061,0 -120.2869510019397,38.98843352322583,0 -120.2747415865039,38.97665918096289,0 -120.2736472452258,38.97502440028673,0 -120.2702354753589,38.97472413034584,0 -120.2724670732593,38.96765386006825,0 -120.2741836870288,38.96758712658053,0 -120.2766942346667,38.96875060377753,0 -120.2757500970935,38.95301668804773,0 -120.2723597848987,38.95431824734473,0 -120.2666091287707,38.95608699474155,0 -120.2629613245105,38.95815603944321,0 -120.2586697900867,38.95925728053676,0 -120.256395276842,38.95969109808662,0 -120.251889165697,38.95972446855738,0 -120.2509450281238,38.95932402187117,0 -120.2483271921252,38.95919053913951,0 -120.2478980386828,38.95895694375405,0 -120.2443789804553,38.96115938393191,0 -120.2417182291125,38.9640291275021,0 -120.2388429010486,38.96543058792965,0 -120.2357959116077,38.9663315121357,0 -120.232791837511,38.96653171595885,0 -120.2296161020373,38.96609794029359,0 -120.2265261972522,38.96496343753427,0 -120.2246379221057,38.96382891660638,0 -120.2239512765979,38.96229394760884,0 -120.2239083612536,38.96095916492649,0 -120.2234792078113,38.96042524481258,0 -120.219831403551,38.95932402187117,0 -120.2163552606677,38.96052535514041,0 -120.2133941019153,38.96142634172568,0 -120.2146815622424,38.96239405529633,0 -120.2178143823718,38.96696548896797,0 -120.2205180490588,38.96983385731917,0 -120.2246808374499,38.97767436310786,0 -120.2258824670886,38.98227817047979,0 -120.2274703348254,38.98494690725122,0 -120.2283286417102,38.9864462268613,0 -120.2315472925281,38.98781388649817,0 -120.23622506505,38.98854774175123,0 -120.2374266946887,38.98884795307096,0 -120.2395724619006,38.99101610812994,0 -120.2429198587512,38.99241703453796,0 -120.2479409540271,38.99231696928555,0 -120.2512454355334,38.99411812218197,0 -120.2515029275989,38.99581916893776,0 -120.2514600122546,38.99572832303166,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.2396501490276,38.81006525014821,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 06 - Rubicon</name>
+			<name>Meeks Bay Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2361822174038,38.98849490825806,0 -120.2316331909145,38.98789448135057,0 -120.2282857940639,38.98649346542664,0 -120.2258396194423,38.98229025128282,0 -120.2250242279018,38.97942124754223,0 -120.2245950744594,38.9777198066904,0 -120.2218055770839,38.9725818744386,0 -120.2204752014126,38.96985390745947,0 -120.2178144500698,38.96701776687787,0 -120.2162694976772,38.96781857101765,0 -120.2118921325649,38.97102169704556,0 -120.2093172119106,38.97342394650729,0 -120.2071714446987,38.97662681904119,0 -120.2092313812221,38.97982774610446,0 -120.212278370663,38.98279681222635,0 -120.2133941696132,38.98549888777579,0 -120.2155399368252,38.98876792772786,0 -120.219831471249,38.99203681670912,0 -120.2233505294765,38.99413816561641,0 -120.2275991485561,38.9978737429486,0 -120.2308607147182,38.99530478419952,0 -120.2330064819301,38.99220205161088,0 -120.2332639739956,38.99089964721421,0 -120.2361822174038,38.98849490825806,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.126307744098,39.03724949928935,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 07 - Stony Ridge</name>
+			<name>Mt Tallac Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1504480207538,38.99267079828853,0 -120.1483022535419,38.99177020915291,0 -120.1462852323627,38.99063611764354,0 -120.1416503751849,38.9883011661397,0 -120.1394616926288,38.98613292791671,0 -120.1388608778094,38.98463180101093,0 -120.1391612852191,38.98346423585525,0 -120.1358138883685,38.98006150757386,0 -120.134097274599,38.97722577574931,0 -120.1331102216815,38.97435656679779,0 -120.1323806608295,38.97102013114311,0 -120.1305353010272,38.96895146210367,0 -120.1311361158465,38.9664489591313,0 -120.1325094068622,38.96474720661136,0 -120.1346122587298,38.96311215097829,0 -120.1365863645648,38.96351570455314,0 -120.1380025709247,38.96588484102693,0 -120.1386892164325,38.96711943004056,0 -120.1401483381366,38.97265813214746,0 -120.1425086820697,38.9750269628571,0 -120.1427661741351,38.9763281178418,0 -120.1425515974139,38.97726226565133,0 -120.1435386503314,38.97812967758313,0 -120.1492893064593,38.97936405316636,0 -120.150490936098,38.97983110858636,0 -120.1516067350482,38.98096537320862,0 -120.1537525022601,38.9816325792042,0 -120.1558553541278,38.98196617984421,0 -120.1516496503924,38.98430134031139,0 -120.1504051054095,38.98586746265278,0 -120.1500617826556,38.98706834576218,0 -120.1502763593768,38.99257213267749,0 -120.1504480207538,38.99267079828853,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.0682364261964,38.92177151674391,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 08 - Tells</name>
+			<name>Pyramid Creek (Twin Bridges) Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2479346492737,38.95891887671378,0 -120.2480204799622,38.95484751699697,0 -120.2444155910461,38.95271162819601,0 -120.2397378185242,38.95404656624004,0 -120.2363904216736,38.95621578693232,0 -120.234115908429,38.95918584294915,0 -120.2329142787903,38.95948617876167,0 -120.2313264110535,38.95858516750511,0 -120.2314551570862,38.95718357166684,0 -120.2307685115784,38.95618241480921,0 -120.2284939983337,38.95428017781255,0 -120.230339358136,38.95239961503568,0 -120.2308543422669,38.9504639016874,0 -120.2302535274475,38.94852813547359,0 -120.2291377284973,38.94692608207663,0 -120.230167696759,38.94445617882049,0 -120.2284510829895,38.94091805937664,0 -120.2240737178772,38.93791385710062,0 -120.2220137813538,38.93677890311634,0 -120.221327135846,38.93557716733403,0 -120.2210696437805,38.93237243902202,0 -120.2186663845032,38.93003532243113,0 -120.218280146405,38.92819076363478,0 -120.2206404903381,38.92775675329057,0 -120.2234299877136,38.92592052629829,0 -120.2263911464661,38.92445151048329,0 -120.2279360988586,38.9244181234067,0 -120.2275498607605,38.92655486463286,0 -120.2286656597107,38.92825753422128,0 -120.2304681041687,38.92819076363478,0 -120.2324422100037,38.92675518082325,0 -120.2329142787903,38.92428457494321,0 -120.232141802594,38.92291568869828,0 -120.2331288555115,38.92124627948444,0 -120.2347167232483,38.91940988398187,0 -120.2353175380676,38.91747326996556,0 -120.2345021465271,38.91513590680123,0 -120.2332576015442,38.91383362821603,0 -120.231068918988,38.91226418381061,0 -120.2304681041687,38.91166311080506,0 -120.2315839031189,38.90822707628655,0 -120.2317126491516,38.90649053050907,0 -120.2333434322327,38.90572242940387,0 -120.2346308925598,38.90575582527687,0 -120.236819575116,38.90755917909166,0 -120.2390940883606,38.90922891029632,0 -120.2427418926209,38.90969642799548,0 -120.2448876598328,38.91146628853431,0 -120.2495654323547,38.91043109244432,0 -120.2750571468323,38.94017677463725,0 -120.2757437923401,38.95299154723541,0 -120.2723963954895,38.95422636092132,0 -120.2667315700501,38.95596173838437,0 -120.2628262737244,38.95816427165961,0 -120.2564318874329,38.9596325891438,0 -120.2518399455994,38.9596325891438,0 -120.2510245540588,38.95919877123571,0 -120.2484067180603,38.95906528826811,0 -120.2479346492737,38.95883169246973,0 -120.2479346492737,38.95891887671378,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.1241106735813,38.81151642481279,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 09 - Highland</name>
+			<name>Ralston Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2284510829895,38.95429310699414,0 -120.2197821834534,38.95926551262523,0 -120.2235158184021,38.96026662592406,0 -120.2240737178772,38.96086728711395,0 -120.224030802533,38.96220207152722,0 -120.224760363385,38.96377041108047,0 -120.22673446922,38.9649383009604,0 -120.2299531200378,38.96607280412224,0 -120.2327855327576,38.96640647806506,0 -120.23574669151,38.96620627388798,0 -120.2392657497376,38.96513850872092,0 -120.2417119243591,38.96390388518405,0 -120.2441580989807,38.96130109480648,0 -120.247805903241,38.95886506334521,0 -120.2479775646179,38.95502730964625,0 -120.2444585063904,38.95279130515095,0 -120.2397378185242,38.95412624169421,0 -120.2364333370178,38.95629545994772,0 -120.2341588237732,38.95919877123571,0 -120.2329142787903,38.95956584810005,0 -120.2313264110535,38.95866483785655,0 -120.2313693263977,38.95719650031873,0 -120.2305539348572,38.95602848282277,0 -120.2284832694977,38.95427236263381,0 -120.2284510829895,38.95429310699414,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.1175021029639,38.80384361580753,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 10 - Lelands</name>
+			<name>Rockbound Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ffff6400</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff6400</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2134061688177,38.96138088233272,0 -120.2197576397649,38.95921181975212,0 -120.2285123699896,38.95420603729952,0 -120.230400645136,38.9525373645704,0 -120.2308297985784,38.95030128151719,0 -120.2302289837591,38.94853238972506,0 -120.2290273541204,38.94689695992881,0 -120.2302289837591,38.94439367798397,0 -120.2284694546453,38.94088893476079,0 -120.2237487667791,38.93771782732377,0 -120.2221608990423,38.93691668300584,0 -120.2212596768133,38.93564818599193,0 -120.2210880154363,38.93241696535018,0 -120.2185560101263,38.92997994113399,0 -120.2182126873724,38.92824392761231,0 -120.2182126873724,38.92780991759336,0 -120.2161527508489,38.92580676001894,0 -120.2137494915716,38.92487193379342,0 -120.2119470471136,38.9253059617872,0 -120.2103162640325,38.92650787160417,0 -120.2112604016058,38.92754283318494,0 -120.2125907772772,38.92854439453144,0 -120.2129341000311,38.92991317216877,0 -120.2110458248846,38.93151560998678,0 -120.209500872492,38.93228343194507,0 -120.2070546978704,38.93174929581053,0 -120.2055955761663,38.93068101147399,0 -120.2034498089544,38.92961271104759,0 -120.1979137295477,38.93021363201724,0 -120.1953388088934,38.93191621378469,0 -120.1907468670599,38.93719061943015,0 -120.1903606289617,38.93956063599705,0 -120.1909185284368,38.9423311183173,0 -120.1943517559759,38.94613618264013,0 -120.1975274914495,38.94757137315624,0 -120.1998449200384,38.95194195184545,0 -120.2029348248235,38.95564638322074,0 -120.203921877741,38.96045184349106,0 -120.2049089306585,38.96245402242088,0 -120.2067542904608,38.96222043779444,0 -120.210402094721,38.96078554390843,0 -120.2134490841619,38.96138620069924,0 -120.2134061688177,38.96138088233272,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.2396123356795,38.84779814981481,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 11 - Camper Flat</name>
+			<name>Twin Lakes Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2166171768158,38.96515113545039,0 -120.2147074439972,38.96249833717778,0 -120.2133985259979,38.96144720095176,0 -120.2104802825897,38.96084654467808,0 -120.2067895629852,38.96224806806224,0 -120.2048154571503,38.96251502175402,0 -120.203871319577,38.96064632478863,0 -120.2032705047577,38.95811015721716,0 -120.2028413513153,38.95577413309262,0 -120.1998372772186,38.9521030824548,0 -120.1974340179413,38.94763081840139,0 -120.1942582824677,38.94622900591443,0 -120.1909108856171,38.94249070376075,0 -120.1903100707977,38.93962008795936,0 -120.1907392242401,38.93721669232681,0 -120.1952024200409,38.9318755215025,0 -120.1944299438446,38.93115974394466,0 -120.1940007904022,38.92955729808691,0 -120.1949878433197,38.92805497221655,0 -120.2000947692841,38.92565118464336,0 -120.2016826370209,38.92441587323459,0 -120.20116765289,38.9228132750302,0 -120.1994081237763,38.9228132750302,0 -120.1962753036469,38.92177824445069,0 -120.1921125152557,38.91894017991953,0 -120.1889796951263,38.92184502107277,0 -120.1867910125702,38.92288005067813,0 -120.1810403564423,38.92394845249775,0 -120.1795812347382,38.92478313022455,0 -120.1803966262787,38.92855575104199,0 -120.1813407638519,38.93172726817132,0 -120.1810832717865,38.93680140061477,0 -120.1801820495575,38.94010606796187,0 -120.1814695098846,38.94297666408801,0 -120.1829286315888,38.94397800748713,0 -120.1884647109955,38.94668156402066,0 -120.1906533935516,38.94978363908748,0 -120.1961894729584,38.95275396467474,0 -120.1966186264008,38.95388866293734,0 -120.195931980893,38.95478973391004,0 -120.1947732665985,38.95522357881086,0 -120.1951595046967,38.95685881648794,0 -120.1962323883026,38.95782659244063,0 -120.1973052719086,38.95856075848461,0 -120.1987214782684,38.96169756407922,0 -120.1991077163666,38.96363297059395,0 -120.2003093460053,38.9656665566312,0 -120.2012534835785,38.96663421228462,0 -120.2072187164276,38.9765435799812,0 -120.2091928222626,38.97344079575955,0 -120.2115960815399,38.97113864219985,0 -120.2162309387177,38.96773532160483,0 -120.2175183990448,38.96710135166234,0 -120.2178188064545,38.96701971359789,0 -120.2166171768158,38.96515113545039,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.2255491094512,38.84935225344368,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Zone 12 - Phipps</name>
+			<name>Van Vleck (Tells Creek) Parking</name>
+			<visibility>0</visibility>
 			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=circle-p,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
 			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1380390359159,38.96595405904667,0 -120.136622829556,38.96345145018321,0 -120.1387256814237,38.961549408321,0 -120.1399702264066,38.95794539949706,0 -120.1410431100125,38.95704436864856,0 -120.1429743005033,38.95387398384942,0 -120.1488107873197,38.94983570941997,0 -120.1486820412869,38.94813355788279,0 -120.1477808190579,38.94619772802876,0 -120.1476949883695,38.94332726232006,0 -120.1468795968289,38.94182522813132,0 -120.1478237344022,38.94089061302078,0 -120.1523727608914,38.94212563751476,0 -120.1573938561673,38.93835888084472,0 -120.1576513482327,38.93882620662558,0 -120.1623291207547,38.9460026085646,0 -120.164904041409,38.94853920943395,0 -120.1685518456693,38.95521404114506,0 -120.1700967980618,38.95668241976107,0 -120.1710838509793,38.95878306105827,0 -120.1724142266507,38.96018462525912,0 -120.1720709038968,38.96155279214261,0 -120.1711696816678,38.96225355031499,0 -120.1693672372098,38.96235365805955,0 -120.1678222848172,38.96175300947053,0 -120.1625007821317,38.96068517718362,0 -120.1583379937406,38.96105224634748,0 -120.1497120095487,38.9630210394084,0 -120.1437896920438,38.96375515163112,0 -120.1413864327664,38.96462272899618,0 -120.1387256814237,38.96522335325589,0 -120.1379961205716,38.96595744265791,0 -120.1380390359159,38.96595405904667,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 13 - Lakes 3 &amp; 5</name>
-			<Style>
-				<LineStyle>
-					<color>ffff6400</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff6400</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2316995681497,38.90638073325017,0 -120.2315493644448,38.9082842552886,0 -120.2304764808389,38.91169043048997,0 -120.2332874358865,38.91384425103742,0 -120.2344890655251,38.91519661658091,0 -120.2353044570657,38.91748389224222,0 -120.2346821845742,38.91943673021424,0 -120.2330728591653,38.92125643073784,0 -120.2321072639199,38.92289245191825,0 -120.2328797401162,38.92426133861154,0 -120.2324076713296,38.92671478253529,0 -120.2304764808389,38.92815036616437,0 -120.2287598670693,38.92821713678891,0 -120.2276011527749,38.92661462445376,0 -120.227987390873,38.92441111088348,0 -120.2285882056924,38.92327594081858,0 -120.2283092559548,38.92092207442521,0 -120.2290173591348,38.91908567053188,0 -120.2281375945779,38.91696735984372,0 -120.2259703696938,38.91574859282476,0 -120.2255626739236,38.91499728765887,0 -120.2241411031457,38.9144630213686,0 -120.2288456977578,38.91104028253342,0 -120.2293392242165,38.91000508023035,0 -120.230326277134,38.90898656000434,0 -120.2316995681497,38.9063495045631,0 -120.2316995681497,38.90638073325017,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 14 - Schmidell</name>
-			<Style>
-				<LineStyle>
-					<color>ff00f0f0</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300f0f0</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1952958935491,38.93188126297366,0 -120.1977849835149,38.93017868036725,0 -120.2036214703314,38.92954437443744,0 -120.2058530682317,38.93074621244372,0 -120.2070117825262,38.93164757758471,0 -120.209500872492,38.93221509790799,0 -120.2127624386541,38.92997837384431,0 -120.2126336926214,38.92860959746518,0 -120.2110458248846,38.92754126584144,0 -120.2103591793768,38.92657307640983,0 -120.2070976132147,38.92470343183639,0 -120.2040506237737,38.92343471638556,0 -120.2029777401678,38.92203242554385,0 -120.2012611263983,38.92276696229849,0 -120.2017761105291,38.92443633573218,0 -120.2000594967596,38.9259387382381,0 -120.1951242321722,38.92810881901988,0 -120.1941371792547,38.92967791299931,0 -120.1946950787298,38.93121358839112,0 -120.1952958935491,38.93184787939383,0 -120.1952958935491,38.93188126297366,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 15 - Dick&apos;s Peak</name>
-			<Style>
-				<LineStyle>
-					<color>ff00f0f0</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300f0f0</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1576578662838,38.93751115403651,0 -120.1592457340206,38.93717734403106,0 -120.161305670544,38.9385125746246,0 -120.1634514377559,38.93897989939255,0 -120.1653397129024,38.93801186609834,0 -120.1681292102779,38.93794510469436,0 -120.1708328769649,38.93958074099727,0 -120.1723778293575,38.93981440024634,0 -120.1773989246334,38.93944722108063,0 -120.1792442844356,38.94011481814951,0 -120.1802313373531,38.94004805872547,0 -120.1810467288936,38.93690889768218,0 -120.1812183902706,38.93163447108395,0 -120.1803171680416,38.92848798868656,0 -120.1795876071895,38.92473379200558,0 -120.1784288928951,38.92174559831503,0 -120.1780211971248,38.91797261534689,0 -120.1775491283382,38.91620396215819,0 -120.1758754299129,38.91339906695523,0 -120.1727640674556,38.90937518443033,0 -120.1724851177181,38.90812443096927,0 -120.1721203372921,38.90478487732622,0 -120.1704251811947,38.90172904810817,0 -120.1707041309322,38.89505113322824,0 -120.1697170780147,38.89282993863091,0 -120.1691162631954,38.89166086094094,0 -120.1673138187374,38.88987380499926,0 -120.1651680515255,38.88676901501313,0 -120.1634514377559,38.88347856651041,0 -120.1626789615596,38.88267680977538,0 -120.1624000118221,38.88117349151206,0 -120.1608550594295,38.87876811613349,0 -120.1599109218563,38.87789948834759,0 -120.1579582736934,38.87709766865979,0 -120.1546108768429,38.87693150231971,0 -120.1529586360897,38.87731570961403,0 -120.1520574138607,38.87721548182445,0 -120.1493966625179,38.87754957390662,0 -120.1478731677974,38.87738252806187,0 -120.1473796413387,38.87723218646587,0 -120.1466286228145,38.87860195369931,0 -120.145276789471,38.87958750159537,0 -120.1426589534725,38.88007191843216,0 -120.1397621677364,38.88012203033026,0 -120.1384961650814,38.87978795034216,0 -120.1355135486568,38.87965431790713,0 -120.1325523899044,38.8806732588767,0 -120.1313936756099,38.88135811262914,0 -120.1316082523311,38.88199284923737,0 -120.134097342297,38.88444822430134,0 -120.1341402576412,38.8871540495568,0 -120.1354920909847,38.88920793415257,0 -120.1370799587215,38.8918467733366,0 -120.1383459613765,38.89251481833852,0 -120.1401054904903,38.89284883848323,0 -120.1418864772762,38.89390099167179,0 -120.1432597682918,38.89426840657374,0 -120.1443326518978,38.89496982974486,0 -120.1442468212093,38.89655635659989,0 -120.1436245487179,38.89762469483234,0 -120.1415431545223,38.89839288354328,0 -120.1406419322933,38.89946165401291,0 -120.140041117474,38.90076419627355,0 -120.1397192523922,38.90318552544272,0 -120.1399552867855,38.90443790468118,0 -120.1369726703609,38.90700907033919,0 -120.1361572788204,38.90886248394135,0 -120.1368439243282,38.91003127844915,0 -120.1377880619014,38.91031512563946,0 -120.1390326068844,38.91026503504129,0 -120.1401698635067,38.90919642719307,0 -120.1408135936702,38.90769367018858,0 -120.1413714931453,38.9072762320415,0 -120.1443541095699,38.90710925609538,0 -120.1453411624874,38.90781055242986,0 -120.1471436069454,38.91106648037012,0 -120.1495468662227,38.91263595125952,0 -120.1504695461239,38.9139215558112,0 -120.1536023662533,38.91413825531946,0 -120.1541602657284,38.91482278641164,0 -120.1578080699886,38.91655912834744,0 -120.1587522075618,38.91908008765395,0 -120.1590311572994,38.92096657477246,0 -120.1598036334957,38.92228541650864,0 -120.1590526149715,38.92739342835165,0 -120.1601898715938,38.92984723370034,0 -120.1592457340206,38.93133282969878,0 -120.1578509853328,38.93336921410294,0 -120.1583874271358,38.93492150064639,0 -120.1574862049068,38.93755864075025,0 -120.1576578662838,38.93751115403651,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 16 - Middle Velma</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1471006916012,38.9411693894511,0 -120.146360401913,38.9402180758736,0 -120.1460599945034,38.93901639837404,0 -120.1454162643398,38.93794822350009,0 -120.1457166717495,38.93624578653696,0 -120.1461887405361,38.93531109788399,0 -120.1478624389614,38.93397580700971,0 -120.149782900616,38.93366701741589,0 -120.1515531585659,38.93310785445954,0 -120.1540422485317,38.93210635754885,0 -120.1578187988247,38.93334153503721,0 -120.1583337829555,38.93491051326152,0 -120.1574325607265,38.93771455810151,0 -120.1574111030544,38.93835713609488,0 -120.1524972961391,38.94208731150503,0 -120.1479053543056,38.94095242432014,0 -120.1474762008632,38.94120276864309,0 -120.147261624142,38.94142807777804,0 -120.1471006916012,38.9411693894511,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 17 - Lower Velmas</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>4dff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.157872443005,38.93334153503721,0 -120.1592028186763,38.93133853367364,0 -120.1579582736934,38.93043716460525,0 -120.1568853900875,38.92726558979145,0 -120.1516068027462,38.92406048592881,0 -120.1484739826168,38.92275837112263,0 -120.1457274005855,38.92115573547801,0 -120.1413500354732,38.91978678886569,0 -120.1378738925899,38.92058812667317,0 -120.1386463687862,38.92225755137233,0 -120.1381742999996,38.92339273773138,0 -120.1369726703609,38.92396032409985,0 -120.1342260883297,38.92399371139188,0 -120.1331532047237,38.92319241204666,0 -120.1316511676754,38.9221239988419,0 -120.1282608554805,38.92098879218324,0 -120.126715903088,38.91992034579541,0 -120.1260721729244,38.91818408610135,0 -120.1244843051876,38.91734933074171,0 -120.1221668765987,38.91741611153183,0 -120.1214373157467,38.91938611656828,0 -120.120064024731,38.92045457100038,0 -120.1190340564693,38.92079938803477,0 -120.1164376781429,38.92126682951809,0 -120.1127469585384,38.92271921733472,0 -120.1117599056209,38.92286946265337,0 -120.1059663341488,38.926825808206,0 -120.1053655193294,38.92932925482379,0 -120.1059663341488,38.92946279379066,0 -120.1063954875911,38.92894532889373,0 -120.1066958950008,38.92852801574329,0 -120.1080477283443,38.92887855895464,0 -120.1088416622127,38.92988010144168,0 -120.1086700008358,38.9302640223123,0 -120.1082193897213,38.93039755951933,0 -120.1083052204097,38.93083155370592,0 -120.1079618976558,38.93131562101208,0 -120.1080906436886,38.93240058745623,0 -120.1078331516231,38.93316839983407,0 -120.1076400325741,38.93415319049871,0 -120.1065027759517,38.93600546846476,0 -120.1055586383785,38.93673986053843,0 -120.1044428394283,38.93739079260927,0 -120.1032412097896,38.93849235634811,0 -120.1025331066097,38.93921003260807,0 -120.102039580151,38.94022811902745,0 -120.1022756145443,38.94184701322975,0 -120.1030910060848,38.94299857526684,0 -120.1037347362484,38.94423356304239,0 -120.1043999240841,38.9450346246912,0 -120.1059448764766,38.94513475676087,0 -120.1071894214596,38.94551859505106,0 -120.1083052204097,38.94590243126301,0 -120.1092279003109,38.94608553742655,0 -120.1100647495235,38.94641930549422,0 -120.111051802441,38.94641930549422,0 -120.1118028209652,38.94705346049342,0 -120.1125109241451,38.94727040695397,0 -120.112854246899,38.94823831384256,0 -120.1134979770626,38.94835512929741,0 -120.1145708606685,38.94760416944294,0 -120.1152145908321,38.94733715957746,0 -120.116094355389,38.9481381861566,0 -120.1192486331905,38.94558488237855,0 -120.118261580273,38.94311493239418,0 -120.1186692760433,38.94114558629235,0 -120.1204502628292,38.93976033550197,0 -120.1213300273861,38.93809297867323,0 -120.1228535221065,38.93590651251602,0 -120.1245272205318,38.93448777703878,0 -120.1259005115474,38.93392027490091,0 -120.1287758396114,38.93417121297241,0 -120.1305353687252,38.93488893296479,0 -120.1306426570858,38.9357234819621,0 -120.1301062152828,38.93951221090416,0 -120.1305997417415,38.94096422516631,0 -120.1319944904293,38.94173148855594,0 -120.1327455089534,38.94249919990978,0 -120.136092905804,38.94308332254506,0 -120.1392686412777,38.94306663339368,0 -120.1401269481624,38.94253257847571,0 -120.1430666492428,38.94228223884809,0 -120.1457488582576,38.94249919990978,0 -120.1471865222896,38.94143107750249,0 -120.1464140460933,38.94036293900409,0 -120.1461136386837,38.9391111937241,0 -120.1453840778316,38.93800963959869,0 -120.1457059429134,38.93617367802945,0 -120.1460921810116,38.93522229742838,0 -120.1478087947811,38.93392038750219,0 -120.1498258159603,38.93360451875893,0 -120.1540529773678,38.93203551164227,0 -120.1578939006771,38.93332076472375,0 -120.157872443005,38.93334153503721,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 18 - Eagle</name>
-			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1157659722562,38.95179151131419,0 -120.1176971627469,38.95043984337934,0 -120.1201004220243,38.95008940674406,0 -120.1216024590726,38.94850407650848,0 -120.1222461892362,38.94665169836893,0 -120.122568054318,38.94461569538655,0 -120.1238984299893,38.9444154296395,0 -120.1255721284146,38.94323051239397,0 -120.1263875199552,38.94189537064234,0 -120.1256150437589,38.94022845679557,0 -120.1244563294644,38.93957755077322,0 -120.1223534775968,38.9394440308506,0 -120.1204652024503,38.93984458986421,0 -120.1187271310086,38.94104625332822,0 -120.1183623505826,38.94306566966742,0 -120.1188987923856,38.94436741169417,0 -120.1193064881558,38.9456190641796,0 -120.1179117394681,38.94682062977531,0 -120.1155299378629,38.94875597678634,0 -120.1156801415677,38.95187652931237,0 -120.1157659722562,38.95179151131419,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 19 - Lawrence</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2316137374612,38.90636150742323,0 -120.2302833617898,38.9089997092407,0 -120.2293821395608,38.909867956749,0 -120.2288242400857,38.91100334131221,0 -120.2241196454736,38.91443442987489,0 -120.2185889304849,38.91299022059725,0 -120.2164860786172,38.91152093707149,0 -120.2165933669778,38.9100349262061,0 -120.2161642135354,38.90826502997719,0 -120.2153917373391,38.90719639202036,0 -120.2156921447488,38.90609434227844,0 -120.2139755309792,38.90439114084504,0 -120.2138467849465,38.90358962014943,0 -120.2162500442239,38.90352282634969,0 -120.2180095733376,38.90252091181288,0 -120.219511610386,38.90252091181288,0 -120.2210994781228,38.90365641388635,0 -120.2241035522195,38.90368981073123,0 -120.2257343353005,38.90312206223157,0 -120.2269145072671,38.90444123558806,0 -120.2273007453652,38.905142640786,0 -120.2271934570046,38.90589413277218,0 -120.2282663406106,38.90576054944601,0 -120.2290388168069,38.90603785609756,0 -120.229789835331,38.90688944216889,0 -120.2316566528054,38.90632171925639,0 -120.2316137374612,38.90636150742323,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 20 - Red Peak</name>
-			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2279973858587,38.92440294864845,0 -120.2285552853338,38.92320100316995,0 -120.2282548779241,38.92089721742011,0 -120.2289844387762,38.91902742327012,0 -120.2280832165472,38.9170240177196,0 -120.225894533991,38.91572177378135,0 -120.2254653805486,38.91502055560895,0 -120.2237916821233,38.91435272233664,0 -120.2185560101263,38.91301703693905,0 -120.2172685497991,38.91211543508539,0 -120.2164102429144,38.91154775396843,0 -120.2165819042913,38.90997825901657,0 -120.2160669201605,38.90844212396996,0 -120.2153802746526,38.90720651296174,0 -120.2155519360296,38.90613785907026,0 -120.2138782376043,38.90430107260851,0 -120.2137924069158,38.90356634471773,0 -120.2161098355047,38.9034392493858,0 -120.2175260418646,38.90270451257634,0 -120.21778353393,38.90247073108792,0 -120.2195430630438,38.90250412849054,0 -120.2211309307806,38.90357283707971,0 -120.2241350048773,38.90363963083242,0 -120.2257228726141,38.90300508764466,0 -120.2264524334661,38.90220355130143,0 -120.2267099255316,38.90190297283988,0 -120.2274394863836,38.90130181209938,0 -120.2288986080877,38.90176938200408,0 -120.2299714916937,38.90156899527909,0 -120.2322030895941,38.90073404450428,0 -120.2322889202825,38.89983228663965,0 -120.2345205181829,38.89883032002543,0 -120.2355075711004,38.89812893498333,0 -120.2365375393621,38.89532332553896,0 -120.2366662853948,38.89335265263868,0 -120.2356363171331,38.89121491173245,0 -120.2347780102483,38.88981198429645,0 -120.2272249096624,38.88049878654886,0 -120.2245641583196,38.8834720134813,0 -120.2226758831732,38.88447419676968,0 -120.2225471371404,38.88550977131644,0 -120.2214742535345,38.88664554539815,0 -120.2184701794378,38.8889504428647,0 -120.2148223751775,38.8910214463641,0 -120.2127624386541,38.89285857634709,0 -120.2125478619329,38.89426144360912,0 -120.2089429730169,38.89739927887123,0 -120.2054239147894,38.90020480630096,0 -120.2041793698065,38.90150733492936,0 -120.2028919094793,38.90361136916271,0 -120.2013040417425,38.9050140240121,0 -120.1981712216131,38.90661702419268,0 -120.1962829464666,38.90885448475556,0 -120.1958537930242,38.90978952200675,0 -120.197613322138,38.91322901733366,0 -120.1987720364324,38.91379668500359,0 -120.2021623486273,38.91406382115956,0 -120.2039647930853,38.91479844040386,0 -120.2043939465276,38.91580018166433,0 -120.2035785549871,38.91790379228584,0 -120.2026773327581,38.92013918336023,0 -120.2029777401678,38.9219421717463,0 -120.204093539118,38.92331107677423,0 -120.2070546978704,38.92454640741985,0 -120.2103591793768,38.92638266997943,0 -120.2119041317693,38.92521414475893,0 -120.2137494915716,38.92474672928148,0 -120.2161956661932,38.92568155715681,0 -120.2183843487493,38.92775148932947,0 -120.2183843487493,38.9281854997059,0 -120.2207446926824,38.92771810380591,0 -120.2231479519598,38.92594864857296,0 -120.2263236874334,38.92441285919785,0 -120.2280403012029,38.92441285919785,0 -120.2279973858587,38.92440294864845,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 21 - Lois</name>
-			<Style>
-				<LineStyle>
-					<color>ffff6400</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff6400</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2029087365838,38.92205204176439,0 -120.2012350381585,38.92268641468851,0 -120.1992180169793,38.92278657831593,0 -120.1962139428826,38.92168477063696,0 -120.1920940698357,38.91884670236699,0 -120.1911070169183,38.91787839428036,0 -120.1908495248528,38.91527391386395,0 -120.1913645089837,38.91340397154052,0 -120.1922228158685,38.91156737308737,0 -120.1920940698357,38.90829477078966,0 -120.1922228158685,38.90722613328055,0 -120.193038207409,38.9068253900672,0 -120.1970293344231,38.90796082329619,0 -120.195741874096,38.90966393908802,0 -120.1974584878655,38.91330379466851,0 -120.1990034402581,38.91390485377966,0 -120.2022650064202,38.91413859761487,0 -120.2039387048455,38.91490660765315,0 -120.2043678582879,38.91590834738683,0 -120.2025654138299,38.92008211074219,0 -120.202951651928,38.92202653031265,0 -120.2029087365838,38.92205204176439,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 22 - China Flat</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1474565952213,38.87724581684893,0 -120.147027441779,38.87607648269169,0 -120.1470703571232,38.87584261355141,0 -120.1489157169254,38.87544169323473,0 -120.1520056217106,38.87567556369434,0 -120.1550526111515,38.87527464243527,0 -120.1571554630192,38.87534146280215,0 -120.1597732990177,38.87504077065632,0 -120.1615328281315,38.87554192352594,0 -120.1632065265568,38.87597625315438,0 -120.1664251773747,38.87387140021774,0 -120.1685709445866,38.87300271257988,0 -120.1711458652409,38.87327000221466,0 -120.1727337329777,38.87400504352735,0 -120.1738495319279,38.87607648269169,0 -120.1722187488468,38.88355988882012,0 -120.173506209174,38.88586488639831,0 -120.1738066165836,38.88800278831563,0 -120.1747507541569,38.89004041619497,0 -120.1749224155338,38.89371467939114,0 -120.176038214484,38.89865793360428,0 -120.1800293414982,38.90046146770872,0 -120.184492537299,38.90333178999888,0 -120.1898354976566,38.90433369309294,0 -120.1901090829762,38.90521034670213,0 -120.1903826682957,38.90578642746548,0 -120.1913589923771,38.90630406126551,0 -120.192238756934,38.9066797608533,0 -120.1928610294254,38.90683838897119,0 -120.1920885532292,38.9072725272707,0 -120.1920456378849,38.91177887614015,0 -120.1907152622135,38.91515149220792,0 -120.1910156696232,38.91798970826834,0 -120.1920456378849,38.91892462517435,0 -120.1886124103459,38.92186285525913,0 -120.1865095584782,38.92283110897318,0 -120.1810593097599,38.92386612419345,0 -120.1796860187443,38.92460064196391,0 -120.1791710346134,38.92306482340721,0 -120.1784843891056,38.92139541770241,0 -120.1782698123844,38.91865750731525,0 -120.178012320319,38.91635357404363,0 -120.1763386218937,38.91361546912044,0 -120.1729912250431,38.90934114296689,0 -120.1724762409123,38.90586806343853,0 -120.1723045795353,38.90449882192677,0 -120.1706737964543,38.90179365741655,0 -120.1708883731754,38.89495411557207,0 -120.1691717594059,38.89148033225392,0 -120.1674551456364,38.88964316662281,0 -120.1652664630802,38.88653657845429,0 -120.1636785953434,38.88342985443138,0 -120.1628202884586,38.88266150388084,0 -120.1626486270817,38.88125840752235,0 -120.1606745212467,38.87828508796161,0 -120.1580566852482,38.87681508626621,0 -120.1543659656437,38.87678167678335,0 -120.1530785053166,38.87718258954077,0 -120.1519627063664,38.87704895220627,0 -120.1490873783024,38.87744986345588,0 -120.1474565952213,38.87708236156346,0 -120.1474565952213,38.87724581684893,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 23 - Dick&apos;s Lake</name>
-			<Style>
-				<LineStyle>
-					<color>ffff9b00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff9b00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1379508464726,38.92050659699031,0 -120.1413840740116,38.91963847962621,0 -120.1462764232548,38.92140809224216,0 -120.1486796825321,38.92281039542329,0 -120.1569623439701,38.92718406778172,0 -120.1581639736088,38.93058933588587,0 -120.1593226879032,38.93119024858166,0 -120.1601380794438,38.92982149558823,0 -120.1588935344608,38.92735099649905,0 -120.1596660106571,38.92257668015114,0 -120.1589793651493,38.92104081778143,0 -120.1588077037724,38.91920441696131,0 -120.1577777355106,38.91656659444122,0 -120.1539153545292,38.91479686108417,0 -120.1534432857426,38.91412902570688,0 -120.1506108730229,38.9140622418235,0 -120.1494950740727,38.91265976575608,0 -120.1467914073856,38.91105690202981,0 -120.1451177089604,38.90798464537962,0 -120.1441735713871,38.9071831652545,0 -120.1413840740116,38.90731674590376,0 -120.1407403438481,38.90781767109978,0 -120.1403111904057,38.90938721382438,0 -120.1391953914555,38.91038903146073,0 -120.1369637935551,38.91028885033337,0 -120.1360625713261,38.9091868486004,0 -120.1367063014897,38.90714977005292,0 -120.1396674602421,38.90434451703529,0 -120.1360625713261,38.90531300977234,0 -120.1340455501469,38.90554678190183,0 -120.1308698146732,38.90694939851347,0 -120.1321572750004,38.90878611645571,0 -120.1319856136234,38.91122386869016,0 -120.1352042644413,38.91449633594208,0 -120.1369208782108,38.91730118777877,0 -120.1371783702763,38.9187369618912,0 -120.1379937618168,38.92050659699031,0 -120.1379508464726,38.92050659699031,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 24 - Kalmia</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1053781001957,38.92935183164261,0 -120.1042408435734,38.93050359659827,0 -120.1031465022953,38.93045352024998,0 -120.1028031795414,38.92966898617745,0 -120.10218090705,38.92961890923991,0 -120.1018161266239,38.92928506208618,0 -120.1006144969853,38.92931844687226,0 -120.1002497165592,38.93021983015706,0 -120.0999707668217,38.9302865988336,0 -120.0995416133793,38.92953544759879,0 -120.0992841213139,38.92960221691956,0 -120.0991982906254,38.92995275482238,0 -120.0990051715763,38.92986929357406,0 -120.0985331027897,38.92946867821517,0 -120.0976104228886,38.92995275482238,0 -120.0970096080692,38.93075397780955,0 -120.095893809119,38.930703901638,0 -120.0943488567265,38.93062044127352,0 -120.094091364661,38.93030329099292,0 -120.0945419757755,38.92848382250646,0 -120.0928468196781,38.92668100036172,0 -120.0912589519413,38.92210837809827,0 -120.0900573223026,38.92057250559145,0 -120.0899285762699,38.91935380049007,0 -120.0884265392216,38.91861922840086,0 -120.0869245021732,38.91646555276528,0 -120.0864309757145,38.91534695125779,0 -120.0866884677799,38.91411146044508,0 -120.0869888751896,38.91274237793648,0 -120.0858087032231,38.91088906564034,0 -120.084714361945,38.91007342435687,0 -120.0840491741093,38.90997324278408,0 -120.0831479518803,38.91029048394623,0 -120.0819248645695,38.90922187648113,0 -120.0817102878483,38.90734476699909,0 -120.0835127323063,38.90490688154715,0 -120.0833839862736,38.90160057437384,0 -120.0832981555851,38.89896209759129,0 -120.0848001926335,38.89632352276885,0 -120.0852722614201,38.89575571536845,0 -120.0860447376164,38.89528810586524,0 -120.0902075260075,38.89528810586524,0 -120.092997023383,38.89598951896547,0 -120.0960869281681,38.89939628405422,0 -120.0958294361027,38.90226852762741,0 -120.0958723514469,38.90313685746284,0 -120.096601912299,38.90413876330773,0 -120.0964731662663,38.90497367404477,0 -120.0978893726261,38.9071110007902,0 -120.0992197482975,38.90757853243817,0 -120.1013655155094,38.90754513742257,0 -120.1023096530827,38.90667686150286,0 -120.1023096530827,38.9055080117637,0 -120.105614134589,38.90477329636334,0 -120.1076740711125,38.904205556528,0 -120.1141542880924,38.90029804745586,0 -120.1177591770085,38.89969687312721,0 -120.1200336902531,38.89846232063574,0 -120.122909018317,38.89579032669863,0 -120.125054785529,38.89736013531885,0 -120.1258701770695,38.89919710134311,0 -120.1259989231022,38.90133460198766,0 -120.12668556861,38.90277069909407,0 -120.1287884204777,38.90380600689624,0 -120.1306337802799,38.90684504904674,0 -120.1320070712956,38.90891387439916,0 -120.1319212406071,38.91131822900553,0 -120.134968230048,38.91465747529292,0 -120.1367277591618,38.9172953687765,0 -120.136942335883,38.91883131221773,0 -120.1378864734562,38.92060094496382,0 -120.138573118964,38.92227665819204,0 -120.1381654231938,38.92334506909798,0 -120.1369637935551,38.92391265584777,0 -120.1343244998844,38.92394604316224,0 -120.1317710369023,38.92215979977311,0 -120.1282090633305,38.92095781629306,0 -120.1267284839543,38.91995614783855,0 -120.1261062114628,38.91821988902053,0 -120.1244539707096,38.91728496282954,0 -120.1221365421208,38.91736843888308,0 -120.1213855235966,38.91938852943754,0 -120.1200551479252,38.92039020590497,0 -120.119111010352,38.92084095570198,0 -120.116235682288,38.92129170263561,0 -120.1127595394047,38.922727396005,0 -120.1116651981266,38.92282755957456,0 -120.1058501689823,38.92685020916861,0 -120.1053137271794,38.92937080284668,0 -120.1053781001957,38.92935183164261,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 25 - Maude</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2272791355045,38.88046768345205,0 -120.2201981037052,38.87161407615122,0 -120.2192968814762,38.87315100785123,0 -120.2198118656071,38.87535611267595,0 -120.219983526984,38.87716023846266,0 -120.2183098285587,38.87959907644124,0 -120.2139324634464,38.88280618801376,0 -120.2096838443669,38.88708211159977,0 -120.2090401142033,38.88898615100389,0 -120.20556397132,38.89115736172707,0 -120.2061647861393,38.89342871114398,0 -120.2071518390568,38.89456435861424,0 -120.2087397067936,38.89503197288277,0 -120.212773749152,38.89262706670254,0 -120.2149624317082,38.89075652781947,0 -120.218352743903,38.88891934346769,0 -120.2216143100651,38.88631380054711,0 -120.2223867862614,38.88551207580701,0 -120.2225584476383,38.88450990715889,0 -120.2247471301945,38.8832738796904,0 -120.2272362201603,38.88040086790511,0 -120.2272791355045,38.88046768345205,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 26 - Rockbound Pass</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2125591724308,38.89288322673846,0 -120.2124733417423,38.89431949476574,0 -120.2051777332218,38.90029806583433,0 -120.2041048496159,38.90145030240399,0 -120.2028388469608,38.90353763987508,0 -120.2013153522404,38.90490689992442,0 -120.1981181590946,38.9065766935133,0 -120.1970023601444,38.90786240781298,0 -120.1929039447697,38.90679376379513,0 -120.1921529262455,38.90661843784985,0 -120.191155144492,38.90619681892298,0 -120.1904148548039,38.90577519749213,0 -120.19007153205,38.90502378675405,0 -120.1898569553288,38.90430576461807,0 -120.1902217357548,38.90388830654957,0 -120.1910907714756,38.90371297342883,0 -120.1920402734669,38.90359190983084,0 -120.1936120479496,38.90313687584059,0 -120.197281309882,38.90243553333692,0 -120.207194754401,38.89465350642331,0 -120.2086109607609,38.89518792180805,0 -120.2101988284977,38.89425269224574,0 -120.2125591724308,38.89288322673846,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 27 - Mt. Price</name>
-			<Style>
-				<LineStyle>
-					<color>ffff6400</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff6400</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1741070239933,38.87613018872876,0 -120.1723904102238,38.88341315124688,0 -120.1737637012394,38.88615242101664,0 -120.1739353626164,38.88829031428094,0 -120.175136992255,38.89002730518374,0 -120.175136992255,38.89276631992308,0 -120.1763386218937,38.89851122721802,0 -120.1851791828068,38.90365452895901,0 -120.189899870673,38.90418887660631,0 -120.1971954791935,38.90211825707126,0 -120.2069801776798,38.89443639902456,0 -120.2060360401066,38.89350115956591,0 -120.2054352252873,38.89109620155092,0 -120.2090401142033,38.88889158516928,0 -120.2097267597111,38.88702094791481,0 -120.2077526538761,38.88662009066585,0 -120.206293532172,38.88715456649518,0 -120.204662749091,38.8890252002311,0 -120.2024311511906,38.88962646489912,0 -120.19908375434,38.88808988952056,0 -120.1977962940128,38.88621923115501,0 -120.1977962940128,38.88307908673256,0 -120.1947063892277,38.88160918420951,0 -120.1943630664738,38.8802060670708,0 -120.1957363574894,38.87846883603548,0 -120.19908375434,38.8786024706999,0 -120.2035469501408,38.87893655626142,0 -120.206465193549,38.87813474827505,0 -120.2080101459416,38.87619700829127,0 -120.2081818073185,38.87506106718437,0 -120.2065510242375,38.87412557263984,0 -120.2000278919132,38.87365782074998,0 -120.1986546008976,38.87225454661024,0 -120.1962513416203,38.87439285805191,0 -120.1948780506046,38.87492742586046,0 -120.1929039447697,38.87572927003437,0 -120.1925606220158,38.87719929418993,0 -120.1883549182804,38.87773384088923,0 -120.1853508441837,38.8794710898929,0 -120.184492537299,38.8794710898929,0 -120.1820034473332,38.87739974967337,0 -120.1822609393986,38.87638006535797,0 -120.1830334155949,38.87577868858266,0 -120.1831192462834,38.87283855109443,0 -120.1844496219547,38.86943051227038,0 -120.1874536960514,38.86722522360683,0 -120.1893848865421,38.86702473942689,0 -120.194405981818,38.86418448613827,0 -120.1931185214909,38.86328226428893,0 -120.1915306537541,38.8632154325854,0 -120.1883978336247,38.86217953314762,0 -120.1847500293644,38.86087628338588,0 -120.1833767383488,38.8590383264592,0 -120.1835483997257,38.85694080947901,0 -120.1848787753971,38.85607191494954,0 -120.1877970188053,38.85567088312467,0 -120.1894278018864,38.85500249172468,0 -120.1914019077213,38.85433409404317,0 -120.1940197437199,38.85463487377717,0 -120.1955217807682,38.85493565223917,0 -120.1964230029972,38.85620559172195,0 -120.1976675479801,38.85543694684919,0 -120.1995129077824,38.85526984903846,0 -120.2050919025334,38.85633926824313,0 -120.2056498020085,38.85613875336717,0 -120.1976675479801,38.84838507795097,0 -120.1976675479801,38.84046688127777,0 -120.1948780506046,38.84243902076266,0 -120.1881403415592,38.84494589883098,0 -120.1847071140202,38.84705160814937,0 -120.1839346378239,38.84929094491169,0 -120.1850075214298,38.85066125055193,0 -120.184492537299,38.85249942397854,0 -120.1828188388737,38.8536023052331,0 -120.1810163944157,38.85396992851769,0 -120.1793426959904,38.85316783890156,0 -120.1784843891056,38.85112915374917,0 -120.17711109809,38.84812115091905,0 -120.1745790927799,38.84698476119237,0 -120.1721758335026,38.84728557200424,0 -120.1702875583561,38.8462494405198,0 -120.1700300662907,38.84471192728179,0 -120.1702875583561,38.84340835742258,0 -120.1723904102238,38.84193763454992,0 -120.1747936695011,38.84123568791665,0 -120.1797718494328,38.83953093154966,0 -120.1819605319889,38.8399320543691,0 -120.1866383045109,38.83909637927702,0 -120.1942772357853,38.83434955857888,0 -120.1952213733585,38.83361410732839,0 -120.1792997806461,38.8333466686259,0 -120.1797718494328,38.8319091683836,0 -120.1768536060246,38.83030448265939,0 -120.1754373996647,38.8300036000588,0 -120.1746649234684,38.83033791398095,0 -120.1741499393376,38.8291678083844,0 -120.1728195636662,38.82910094462655,0 -120.1709742038639,38.83023761996916,0 -120.1682705371769,38.82896721692239,0 -120.1659960239323,38.82923467207947,0 -120.1637644260319,38.82819827774851,0 -120.1617903201969,38.82682753949156,0 -120.1596016376408,38.82605857720657,0 -120.1590437381657,38.82408831561693,0 -120.159644552985,38.82174787975027,0 -120.1352257221134,38.82502446842321,0 -120.129560896674,38.82375721045796,0 -120.1291746585758,38.82810355032118,0 -120.1268143146427,38.83104553747561,0 -120.1271576373966,38.8331516581436,0 -120.129389235297,38.83606000804438,0 -120.1357407062443,38.83763113613313,0 -120.1381868808659,38.83910194801548,0 -120.1409334628971,38.8393008197507,0 -120.1436371295841,38.84027019916183,0 -120.1441950290592,38.84167410455242,0 -120.1445812671574,38.84357936042163,0 -120.144152113715,38.84585223051278,0 -120.1453966586979,38.84802475904863,0 -120.1465124576481,38.84929482192363,0 -120.1457399814518,38.85119987371993,0 -120.1439375369938,38.85246987990637,0 -120.1433796375187,38.85437327782645,0 -120.1437658756169,38.8568463165093,0 -120.1444525211247,38.85848382182682,0 -120.1437229602726,38.86109038516141,0 -120.1431650607975,38.86179213588829,0 -120.1400751560124,38.86182555241682,0 -120.1373285739811,38.8601547067523,0 -120.1361698596867,38.86075621571442,0 -120.1368994205387,38.86215971683836,0 -120.1363415210636,38.86316220068021,0 -120.1343244998844,38.86376368420089,0 -120.132994124213,38.86339611154289,0 -120.1324791400822,38.86212630046688,0 -120.1328653781803,38.86125746929599,0 -120.1317924945744,38.85978711543726,0 -120.1316637485417,38.85814964013045,0 -120.1299042194279,38.85898509142683,0 -120.1280588596256,38.85708024814889,0 -120.1288742511662,38.85898509142683,0 -120.1280159442814,38.86088988368165,0 -120.1283163516911,38.86239363099902,0 -120.1289171665104,38.86436516263319,0 -120.1298613040836,38.86583542182399,0 -120.1339811771305,38.86626981076619,0 -120.1367277591618,38.86774003056861,0 -120.1385302036198,38.86770661681987,0 -120.1394314258488,38.86900974138371,0 -120.1416201084049,38.86924363300764,0 -120.1408905475529,38.87064696659014,0 -120.1409522958526,38.87061688755779,0 -120.14097,38.87067,0 -120.14124,38.87102,0 -120.14134,38.87111,0 -120.14162,38.87122,0 -120.14175,38.87131,0 -120.1418,38.87136,0 -120.14186,38.87149,0 -120.14229,38.8718,0 -120.14241,38.87202,0 -120.14251,38.87211,0 -120.14269,38.87223,0 -120.14288,38.87246,0 -120.14295,38.8725,0 -120.14326,38.87258,0 -120.14348,38.87275,0 -120.143613156009,38.87288315600897,0 -120.1436459100309,38.87295948599194,0 -120.14384,38.87348,0 -120.14393,38.87359,0 -120.14413,38.87371,0 -120.14421,38.87393,0 -120.14421,38.87393,0 -120.14422,38.87408,0 -120.14426,38.87418,0 -120.14457,38.87438,0 -120.14473,38.87469,0 -120.1448,38.87474,0 -120.144857799569,38.87475618387931,0 -120.1449687256017,38.87478724316847,0 -120.14505,38.87481,0 -120.14512,38.87487,0 -120.1452,38.87498,0 -120.14525,38.8753,0 -120.14523,38.87549,0 -120.14529,38.8757,0 -120.14525,38.87585,0 -120.1452627431063,38.87590097242527,0 -120.1453364445365,38.87600475010358,0 -120.14543,38.87611,0 -120.14554,38.87618,0 -120.1462,38.8763,0 -120.1462,38.8763,0 -120.1462,38.8763,0 -120.147757002631,38.87558998341714,0 -120.1490015476139,38.87542293296624,0 -120.1507610767277,38.87548975319374,0 -120.1519197910221,38.87562339346023,0 -120.1553530185612,38.87508883088647,0 -120.1570696323307,38.87525588212268,0 -120.1586145847233,38.87515565142805,0 -120.1597303836735,38.87498859995625,0 -120.163249441901,38.87582385338877,0 -120.1662535159977,38.87385263953475,0 -120.1686567752751,38.87285030643799,0 -120.1716608493717,38.87328465251543,0 -120.1729053943546,38.87398628287963,0 -120.1741928546818,38.87609113241396,0 -120.1741070239933,38.87613018872876,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 28 - Half Moon</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1229162009981,38.89573251417306,0 -120.125233629587,38.89735242381569,0 -120.1259631904391,38.89927288737506,0 -120.1261133941439,38.9011932989964,0 -120.1267356666354,38.90264609762674,0 -120.1289028915194,38.9038145277004,0 -120.130812624338,38.90690366249166,0 -120.1341385635165,38.90545095098116,0 -120.136219957712,38.90526727269626,0 -120.1397390159396,38.90421528790979,0 -120.1395458968905,38.90299630191549,0 -120.1399535926607,38.90067516112919,0 -120.1405973228243,38.89913882477643,0 -120.141434172037,38.89818694753296,0 -120.1434726508883,38.8975189558836,0 -120.1440305503634,38.89619965391635,0 -120.1442236694125,38.89509743348131,0 -120.1430864127901,38.89436261035426,0 -120.141434172037,38.89386159022672,0 -120.1400394233492,38.89302777857071,0 -120.1381726058749,38.89259355317023,0 -120.1369924339083,38.89202571594863,0 -120.13478229368,38.88836806740563,0 -120.1332802566317,38.88898603951402,0 -120.1278085502413,38.88913635624102,0 -120.1250619682101,38.88813423871946,0 -120.1178951057223,38.88734923678663,0 -120.1182813438204,38.89012175801831,0 -120.1185173782137,38.89159148442194,0 -120.123066404703,38.89581677843279,0 -120.1229162009981,38.89573251417306,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 29 - Gilmore</name>
-			<Style>
-				<LineStyle>
-					<color>ffff9600</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff9600</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1227230819491,38.89578337788483,0 -120.118388632181,38.89177519808413,0 -120.1178307327059,38.88723232086293,0 -120.1176161559847,38.88101879781472,0 -120.1122088226107,38.87891409422928,0 -120.1062435897616,38.87814569484674,0 -120.1062435897616,38.87924817832577,0 -120.1033682616976,38.87874705159206,0 -120.1031966003207,38.87777819655275,0 -120.1042265685824,38.87722132226401,0 -120.1036686691073,38.87640279009204,0 -120.1019735130099,38.87598516800486,0 -120.1013297828463,38.87618562691298,0 -120.1014799865511,38.87648631421498,0 -120.0998062881258,38.87722132226401,0 -120.099119642618,38.87814007163509,0 -120.0977248939303,38.8793594842733,0 -120.0966949256686,38.88026150207538,0 -120.0962228568819,38.88039513336853,0 -120.0942058357027,38.88139736005672,0 -120.0941629203585,38.88179824677385,0 -120.0899143012789,38.88188176455525,0 -120.0880689414767,38.88183165389819,0 -120.0851936134127,38.88158078411168,0 -120.0824255737093,38.88221551873074,0 -120.0807947906283,38.88271662100366,0 -120.0804514678744,38.88358518990486,0 -120.0792283805636,38.88475440050445,0 -120.0789923461703,38.88557283647547,0 -120.0784344466952,38.88642466798287,0 -120.078219869974,38.88771074718161,0 -120.0788850578097,38.88864606288411,0 -120.0783057006625,38.88956420079127,0 -120.0784559043673,38.89036587980124,0 -120.0815672668246,38.89166858889517,0 -120.0831980499056,38.89335539465937,0 -120.0850219520357,38.89597737952965,0 -120.0860948356417,38.89524256550719,0 -120.0904507430819,38.89519246427427,0 -120.0931329520968,38.89594354049235,0 -120.0963086875704,38.89941710551178,0 -120.0959439071444,38.90307418505608,0 -120.0967163833407,38.90415913391436,0 -120.0965661796358,38.90487715753328,0 -120.0980038436678,38.90696439425716,0 -120.0991411002901,38.90748201946803,0 -120.1013297828463,38.90748201946803,0 -120.1021666320589,38.90668053366812,0 -120.1022095474032,38.90551168398941,0 -120.1075954231051,38.90414243560425,0 -120.1140541824129,38.9002686266745,0 -120.1177234443453,38.89960065460728,0 -120.1200623306063,38.89838158938656,0 -120.1227659972933,38.89585989491017,0 -120.1227230819491,38.89578337788483,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 30 - Cathedral</name>
-			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.078453097002,38.89049772223937,0 -120.0781956049366,38.89134949469278,0 -120.0776162477894,38.8919006361315,0 -120.0772514673633,38.89413856045813,0 -120.0774445864124,38.8951572936982,0 -120.0768008562488,38.89674381636536,0 -120.0764575334949,38.89772911260169,0 -120.078281435625,38.89894818902361,0 -120.0761571260852,38.9001004474979,0 -120.0765219065113,38.90100220195702,0 -120.0760712953968,38.9018204507223,0 -120.0757065149707,38.90313964826279,0 -120.0762000414295,38.9039244756769,0 -120.0769296022815,38.90303945690459,0 -120.077187094347,38.90290586820711,0 -120.0785603853626,38.90337342754869,0 -120.0792684885425,38.90384098381117,0 -120.0809421869678,38.90454231243166,0 -120.0817790361805,38.90480948341714,0 -120.0815859171314,38.90622881241902,0 -120.0816502901477,38.90728076736938,0 -120.0834098192615,38.90487627600641,0 -120.0831952425403,38.89906508566309,0 -120.084933313982,38.89599231004635,0 -120.0816073748035,38.8918171301278,0 -120.078453097002,38.89041421458631,0 -120.078453097002,38.89049772223937,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 31 - Tyler</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.209705302039,38.88695637372433,0 -120.2077741115482,38.88655551611102,0 -120.2062291591557,38.8871568016828,0 -120.204662749091,38.8889606278625,0 -120.2023667781742,38.88961199828191,0 -120.1991266696842,38.8880754225904,0 -120.1978821247013,38.88632168145867,0 -120.1978821247013,38.88308132204843,0 -120.194770762244,38.88159470070782,0 -120.1944488971623,38.88017487933732,0 -120.1957578151615,38.8785044649325,0 -120.2037400691898,38.87900559337694,0 -120.2066797702702,38.87813696849387,0 -120.2080530612858,38.87621593345091,0 -120.208267638007,38.87513010806482,0 -120.2065939395817,38.87412779298391,0 -120.2000064342411,38.87355980816348,0 -120.1986331432255,38.87215849160413,0 -120.2021736591252,38.8693017369243,0 -120.206465193549,38.86759765315002,0 -120.2132243602665,38.86306993801509,0 -120.220155188361,38.87162370350043,0 -120.2191681354435,38.87312722379149,0 -120.2199406116398,38.87551608506277,0 -120.2199191539677,38.87716986506062,0 -120.2182454555424,38.8795418863542,0 -120.213846632758,38.88279880690555,0 -120.2097267597111,38.88698711383062,0 -120.209705302039,38.88695637372433,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 32 - Twin</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.2100271671208,38.85995366099315,0 -120.2082890956791,38.86088098780707,0 -120.2064866512211,38.86200880141759,0 -120.2048344104679,38.86297787141594,0 -120.2017015903385,38.8641055342022,0 -120.1979572265537,38.86428096509375,0 -120.194395252982,38.86418071892298,0 -120.1894063442143,38.8670375676877,0 -120.1871747463139,38.86767243220337,0 -120.1844818084629,38.86942663362496,0 -120.1831514327915,38.87285961859845,0 -120.1830656021031,38.87574964026908,0 -120.1822502105625,38.87644282360102,0 -120.1820249050053,38.87741169684619,0 -120.1845139949711,38.87940786818117,0 -120.185393759528,38.87946633260518,0 -120.1882905452641,38.87773743574605,0 -120.1925498931797,38.87719472198766,0 -120.1928503005894,38.87570799274177,0 -120.1962191551121,38.87437993301463,0 -120.1986438720616,38.87221656246098,0 -120.2022165744694,38.86923524439973,0 -120.206465193549,38.86759004083948,0 -120.2132136314304,38.86304586815139,0 -120.2100057094486,38.85995482585237,0 -120.2100271671208,38.85995366099315,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 33 - Aloha</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1280582172066,38.85695787764315,0 -120.1299357635171,38.85884601524035,0 -120.1316845637948,38.8581108171799,0 -120.1318025809914,38.8596898127371,0 -120.1329398376137,38.8612520648402,0 -120.1325535995156,38.8621376042661,0 -120.1330685836465,38.86338235330287,0 -120.1343238574654,38.8637081564994,0 -120.1356542331368,38.86330716773784,0 -120.1357937080056,38.86249682937945,0 -120.1339698058755,38.85959791448566,0 -120.1324784976632,38.85781840674773,0 -120.1309871894509,38.85618924090101,0 -120.1274627668053,38.85513652927435,0 -120.1255396229417,38.85413393228608,0 -120.124152920881,38.85364933867529,0 -120.1221251708657,38.85479397689291,0 -120.1190459949166,38.85525349800236,0 -120.1155269366891,38.8545851026798,0 -120.1125228625924,38.85495272088454,0 -120.1098621112496,38.8562894983385,0 -120.1070726138741,38.85618924090101,0 -120.1069438678414,38.85916348478032,0 -120.1063001376778,38.86177002320174,0 -120.103982709089,38.8640423120732,0 -120.1010644656808,38.86577989574053,0 -120.0963866931588,38.86721671169563,0 -120.0987470370919,38.86751743694143,0 -120.100034497419,38.86725012567464,0 -120.1023519260079,38.86791840195698,0 -120.1104629260689,38.86781816091512,0 -120.1121366244942,38.86841960504611,0 -120.1139390689522,38.86835277817173,0 -120.1188743335397,38.87052461943215,0 -120.1238095981271,38.87306204341294,0 -120.1275432330758,38.87499986887374,0 -120.1308047992379,38.87757241759405,0 -120.133894704023,38.88021168897839,0 -120.1355254871041,38.87954352827459,0 -120.138572476545,38.87971056903952,0 -120.1397311908395,38.88004464939143,0 -120.1425636035592,38.87991101743916,0 -120.1451385242135,38.87940989537991,0 -120.1464688998849,38.87844104937783,0 -120.1471984607369,38.87720491633539,0 -120.1469838840157,38.87626945001045,0 -120.1470053416878,38.87601037812752,0 -120.14631869618,38.87634447587504,0 -120.1463244694984,38.8763311173746,0 -120.1462,38.8763,0 -120.1462,38.8763,0 -120.14554,38.87618,0 -120.145465747314,38.87613274829071,0 -120.1451170665414,38.87579321374936,0 -120.1433360797555,38.8727361370845,0 -120.1408255321175,38.87059777580015,0 -120.141447804609,38.86936151793971,0 -120.1394951564461,38.86901068079707,0 -120.1384437305123,38.86782450430083,0 -120.1364267093331,38.86770755625046,0 -120.133894704023,38.86632087184533,0 -120.1297533733041,38.8659366051156,0 -120.1287663203866,38.86448305565509,0 -120.127950928846,38.8609425348159,0 -120.1287234050423,38.85900432613276,0 -120.1279723865182,38.85688226121759,0 -120.1280582172066,38.85695787764315,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 34 - Susie</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1348037513522,38.88824111578887,0 -120.1332587989596,38.88890919470222,0 -120.1276368888644,38.88900940599729,0 -120.1251907142428,38.88804069088966,0 -120.1177663596896,38.88727239020416,0 -120.1177663596896,38.88099205566935,0 -120.1197833808688,38.88042412570883,0 -120.121800402048,38.87781827122595,0 -120.1242894920138,38.87337473486416,0 -120.1274437698153,38.875095385289,0 -120.1336450370577,38.88005663919787,0 -120.1311988624361,38.88122590786313,0 -120.13154218519,38.8821947158955,0 -120.1338596137789,38.88446635189364,0 -120.1339454444674,38.88763983939482,0 -120.134589174631,38.88820771167825,0 -120.1348037513522,38.88824111578887,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 35 - Grass</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.096233585718,38.86720560270523,0 -120.096233585718,38.86763998327537,0 -120.0970489772585,38.86842520295509,0 -120.0963408740786,38.8693941854977,0 -120.0959546359804,38.87021279838729,0 -120.0959975513247,38.87099798964793,0 -120.0969416888979,38.87093116519744,0 -120.0990659984377,38.8715492889672,0 -120.1008899005679,38.87221752483372,0 -120.102005699518,38.87300269394923,0 -120.1029927524355,38.87435583738915,0 -120.1027781757143,38.87500734170923,0 -120.1037008556155,38.87550849481456,0 -120.1051814349917,38.87595952958787,0 -120.1054818424013,38.87689499999235,0 -120.103432634714,38.87781746624374,0 -120.1036579402712,38.87860257349472,0 -120.1060826572207,38.87887819419596,0 -120.1061041148928,38.87790934094465,0 -120.1072306426791,38.87803462443625,0 -120.1111144813326,38.87856081656467,0 -120.1123375686434,38.87881973316356,0 -120.1177127155093,38.8809494951967,0 -120.1197726520327,38.88020616945395,0 -120.1215107234743,38.8781515550865,0 -120.1231844218996,38.87493588084131,0 -120.1242573055056,38.87333216554415,0 -120.1190967353609,38.87065132864117,0 -120.1139039787081,38.86837925100144,0 -120.1121980937746,38.86847113790329,0 -120.110470751169,38.86781991739546,0 -120.1024133952883,38.86795357208324,0 -120.1000637801913,38.86729364961968,0 -120.098754862192,38.8675442601377,0 -120.096233585718,38.86723518151129,0 -120.096233585718,38.86720560270523,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 36 - Hemlock</name>
-			<Style>
-				<LineStyle>
-					<color>ff00f0f0</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300f0f0</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.210070082465,38.85989206000593,0 -120.2057356326969,38.85608237101621,0 -120.2052635639103,38.85646669100321,0 -120.2006072490605,38.85553095175509,0 -120.1996416538151,38.85531372481169,0 -120.1975602596195,38.85558108095548,0 -120.1964015453251,38.85618262860436,0 -120.1953286617191,38.85639985289379,0 -120.1941914050968,38.85716848735962,0 -120.193869540015,38.8599254774274,0 -120.1923245876225,38.86059382255907,0 -120.1919812648686,38.86201403510638,0 -120.1942986934574,38.86410253143922,0 -120.1983541934879,38.86426960849569,0 -120.2016801326664,38.86410253143922,0 -120.2051348178776,38.86294968904888,0 -120.2099413364323,38.85985864256873,0 -120.210070082465,38.85989206000593,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 37 - Smith</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1962942569645,38.85616591901614,0 -120.1954574077519,38.85504636766284,0 -120.1915306537541,38.85441139040631,0 -120.1880115955265,38.8556813392503,0 -120.1848358600529,38.85616591901614,0 -120.1836127727421,38.85696797482163,0 -120.1834840267094,38.85898978368974,0 -120.1848358600529,38.86082774187111,0 -120.1916379421147,38.8631501847204,0 -120.1931828945072,38.86323372441668,0 -120.1918954341801,38.86208086793918,0 -120.1923460452946,38.86051027976114,0 -120.1938266246708,38.85979180764727,0 -120.1941055744084,38.85711835927813,0 -120.1954144924076,38.85623275734542,0 -120.1962513416203,38.85608237101621,0 -120.1962942569645,38.85616591901614,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 38 - Waca</name>
-			<Style>
-				<LineStyle>
-					<color>ff00aaff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300aaff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1322210055978,38.84332091389641,0 -120.1328647357613,38.84699759259686,0 -120.1341951114327,38.85007248705422,0 -120.140010140577,38.85427518486534,0 -120.1397848350198,38.85562868477247,0 -120.1414048892647,38.8573247007634,0 -120.1425099593789,38.86025712559471,0 -120.1431322318703,38.86161886580974,0 -120.1436847669274,38.86104242681596,0 -120.1443660480172,38.85849434339821,0 -120.1435935718209,38.85675658168528,0 -120.143250249067,38.85435037998038,0 -120.1437652331979,38.85244541256262,0 -120.1457822543771,38.8509748765049,0 -120.1463401538522,38.8492703534877,0 -120.1450956088692,38.84779975179066,0 -120.1440656406075,38.84586118492268,0 -120.1444518787057,38.84362174019962,0 -120.1441943866402,38.8419504668647,0 -120.1406753284127,38.8446244853577,0 -120.1362979633004,38.84439051275152,0 -120.1356542331368,38.84395599015587,0 -120.1322210055978,38.84345461463262,0 -120.1322210055978,38.84332091389641,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 39 - American</name>
-			<Style>
-				<LineStyle>
-					<color>ffff00a2</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff00a2</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1229942065865,38.84215102173759,0 -120.1231229526192,38.84512585263713,0 -120.1237666827828,38.8490698186828,0 -120.1258373481423,38.85120047207888,0 -120.1258158904702,38.85272113468888,0 -120.1242065650613,38.85360678034877,0 -120.1255208474786,38.85406213160772,0 -120.1275432330758,38.85511903659636,0 -120.1310193759591,38.85615503889115,0 -120.1325214130074,38.85782597853393,0 -120.1340234500558,38.8595971316909,0 -120.1358258945138,38.862470984458,0 -120.1357400638253,38.86320613743908,0 -120.1368129474313,38.86217023786585,0 -120.1360833865792,38.86083357095472,0 -120.1373279315621,38.86009839344315,0 -120.1400745135934,38.8616689907188,0 -120.1429498416573,38.86153532421614,0 -120.1410186511666,38.8571910260945,0 -120.1396882754952,38.85565374934264,0 -120.1398599368722,38.85428353988205,0 -120.1340663654,38.85020617510259,0 -120.1327789050729,38.84716470984147,0 -120.1320493442208,38.84322063817935,0 -120.123080037275,38.8421175959647,0 -120.1229942065865,38.84215102173759,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 40 - Lake of the Woods</name>
-			<Style>
-				<LineStyle>
-					<color>ff00f0f0</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>3300f0f0</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1175439578683,38.83981117971444,0 -120.1159560901314,38.84295323557633,0 -120.1172006351144,38.84539324707488,0 -120.1162564975411,38.84793344411028,0 -120.1141107303292,38.84970484362569,0 -120.1139819842965,38.85221146567795,0 -120.1111495715768,38.85271277948863,0 -120.1126086932809,38.85481825890987,0 -120.1155269366891,38.8544172200159,0 -120.1190030795724,38.85515245626076,0 -120.1220500690133,38.85468457952981,0 -120.1256978732735,38.85267935867783,0 -120.1257407886178,38.85126731507449,0 -120.1237237674386,38.84903639616036,0 -120.1229512912423,38.84485845719443,0 -120.1228225452096,38.8421175959647,0 -120.1177156192452,38.83984460657076,0 -120.1175439578683,38.83981117971444,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 41 - Tamarack</name>
-			<Style>
-				<LineStyle>
-					<color>ffff9600</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33ff9600</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1124370319039,38.85476013297998,0 -120.111020825544,38.85268807266045,0 -120.1082742435128,38.85298885935535,0 -120.1053560001046,38.85208649545465,0 -120.1023519260079,38.84984724669563,0 -120.1020515185982,38.8464381057771,0 -120.1008498889596,38.84526826487318,0 -120.1008928043038,38.84369730540046,0 -120.1023519260079,38.84299537612661,0 -120.1025665027291,38.8416867591809,0 -120.1009142619759,38.84006558053121,0 -120.0982535106332,38.839430469548,0 -120.0962794047982,38.84136921163255,0 -120.0928676349313,38.84125222007331,0 -120.0918805820138,38.83934690189135,0 -120.0902068835885,38.84230513718186,0 -120.0880825740487,38.84847191021613,0 -120.0885224563271,38.84889804958252,0 -120.088860414663,38.84964587622152,0 -120.0953781825692,38.85258279527735,0 -120.0966227275521,38.85345173243389,0 -120.1002276164681,38.85437078902827,0 -120.1037895900399,38.85493892716485,0 -120.1054847461373,38.8553733826777,0 -120.1070726138741,38.85617497745141,0 -120.1099908572823,38.85620839661966,0 -120.1125872356087,38.85488832753362,0 -120.1124370319039,38.85476013297998,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 42 - Triangle</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.0880557519585,38.84852157437141,0 -120.084890745321,38.85026789278245,0 -120.0735610944421,38.8565174146058,0 -120.0751275045068,38.85777061663288,0 -120.0754279119164,38.85860607238208,0 -120.0761682016045,38.86107049275876,0 -120.0758034211785,38.86249069578547,0 -120.0762111169488,38.86390242071007,0 -120.0762862188012,38.86463755889072,0 -120.0761789304406,38.86533092089091,0 -120.0754708272607,38.86573189823876,0 -120.0743335706383,38.86614958057124,0 -120.0737542134911,38.86652549257238,0 -120.0730997544915,38.86718542216661,0 -120.0822943669945,38.86658394522866,0 -120.0837534886986,38.86676772355471,0 -120.0846439820916,38.8674360043718,0 -120.085255525747,38.86828805330261,0 -120.0863176805169,38.86893539005337,0 -120.0879913789422,38.86963706335033,0 -120.0900513154656,38.86993777835733,0 -120.0916177255303,38.8686847907688,0 -120.092819355169,38.86830053681663,0 -120.093184135595,38.86743178109453,0 -120.093548916021,38.86693057104085,0 -120.0949651223809,38.86642935745353,0 -120.0964027864129,38.86721459050514,0 -120.101102016607,38.86569479786107,0 -120.1039773446709,38.86395721211392,0 -120.1062304002434,38.86168492052277,0 -120.1069170457513,38.859362429814,0 -120.1070243341119,38.85620438910046,0 -120.1054793817193,38.85540341805551,0 -120.1004797441155,38.85445095482645,0 -120.096424244085,38.85351518905698,0 -120.0954157334954,38.85266296309083,0 -120.0889140588433,38.84970515846305,0 -120.0880879384667,38.84844825089533,0 -120.0880557519585,38.84852157437141,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 43 - Lyons</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1977962940128,38.83856854408359,0 -120.1976675479801,38.83362110983094,0 -120.1954359500797,38.833554250256,0 -120.1868528812321,38.83923708990116,0 -120.1816601245793,38.84013961679204,0 -120.1799005954655,38.83987220261029,0 -120.1725191562565,38.84214519112275,0 -120.1703304737003,38.84344878412461,0 -120.1702875583561,38.84602247453964,0 -120.1723045795353,38.84722572643087,0 -120.1745790927799,38.84682464472834,0 -120.1770681827458,38.84786076783543,0 -120.1796431034001,38.85327510116667,0 -120.1813597171696,38.85370956684302,0 -120.18359131507,38.85300773635442,0 -120.1847500293644,38.85150379055917,0 -120.1847500293644,38.85070167313267,0 -120.1837629764469,38.84923110102532,0 -120.1844496219547,38.84735941982924,0 -120.1872391193302,38.84528714392111,0 -120.19007153205,38.84391673476125,0 -120.1931185214909,38.84294740502723,0 -120.1948351352604,38.84207833955576,0 -120.1979035823734,38.84023989685109,0 -120.1977962940128,38.83856854408359,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 44 - Avalanche</name>
-			<Style>
-				<LineStyle>
-					<color>ff008c00</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>33008c00</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.1184880954415,38.82102280247519,0 -120.1295173389107,38.82369760728009,0 -120.1289594394356,38.82841170613324,0 -120.1264703494698,38.83121995708022,0 -120.1269424182564,38.83305863280263,0 -120.1293456775338,38.83613412965779,0 -120.1360833865792,38.83780553959975,0 -120.1382720691354,38.83930977498514,0 -120.1409328204781,38.83930977498514,0 -120.1435077411324,38.8404797138578,0 -120.1440656406075,38.84188361511477,0 -120.14054658238,38.84449078681981,0 -120.1363837939889,38.84425681377398,0 -120.1356113177926,38.84382229036179,0 -120.1319635135323,38.84318721290893,0 -120.1265990955025,38.84241842735545,0 -120.1229942065865,38.84208417017611,0 -120.1201188785226,38.8407805521732,0 -120.1175868732125,38.8396440451972,0 -120.1183164340646,38.83810638922053,0 -120.1188743335397,38.8335935113673,0 -120.1188743335397,38.83105280238666,0 -120.1197326404244,38.82637231160483,0 -120.1186168414742,38.82108967381991,0 -120.1184880954415,38.82102280247519,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Zone 45 - Ralston</name>
-			<Style>
-				<LineStyle>
-					<color>ff0000ff</color>
-					<width>2</width>
-					<gx:labelVisibility>1</gx:labelVisibility>
-				</LineStyle>
-				<PolyStyle>
-					<color>330000ff</color>
-					<fill>1</fill>
-					<outline>1</outline>
-					<width>2.0</width>
-				</PolyStyle>
-			</Style>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-120.09913327519,38.81657180581524,0 -120.0690925342232,38.83272042125118,0 -120.0694358569772,38.8351942126727,0 -120.0747573596627,38.83469277541347,0 -120.0761735660226,38.83576250396241,0 -120.078233502546,38.83582936146288,0 -120.0801646930367,38.83419133462141,0 -120.0820958835274,38.83318844243896,0 -120.0849712115914,38.83379017944417,0 -120.0857007724435,38.83559535993649,0 -120.0882327777535,38.83576250396241,0 -120.0915372592599,38.83425819359781,0 -120.0936830264718,38.83465934613725,0 -120.0916660052926,38.83673193157198,0 -120.0920093280465,38.83937271911126,0 -120.0929105502755,38.8411777580059,0 -120.0962579471261,38.84131146276925,0 -120.0981462222726,38.83930586493955,0 -120.101107381025,38.84000783060993,0 -120.1026523334176,38.84164572357847,0 -120.1025235873849,38.84314987778848,0 -120.101107381025,38.84385180553811,0 -120.1010215503365,38.84512194291116,0 -120.1023090106637,38.84629178622102,0 -120.1026094180733,38.84956536545803,0 -120.1052701694161,38.85187146551847,0 -120.1081454974801,38.85284067366424,0 -120.1138103229195,38.85233936075494,0 -120.1138103229195,38.84976589886599,0 -120.1160419208199,38.84772711620995,0 -120.1169431430489,38.84548773022102,0 -120.1158273440987,38.84304772196277,0 -120.1181876880318,38.83810059911052,0 -120.1187455875069,38.83345400161493,0 -120.1187455875069,38.83111387363277,0 -120.1195609790475,38.82607141238453,0 -120.1184451800973,38.8211565451018,0 -120.099304936567,38.81654227932572,0 -120.09913327519,38.81657180581524,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
+			<Point>
+				<coordinates>-120.3214248418928,38.93111341056719,0</coordinates>
+			</Point>
 		</Placemark>
 	</Folder>
-</Document>
+	<Folder>
+		<name>Boat Ramps</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Echo Chalet Boat Dock</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=boatlaunch,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0444679921867,38.83470892863853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Echo Lake Wilderness Dock</name>
+			<visibility>0</visibility>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://caltopo.com/icon.png?cfg=boatlaunch,FF0000</href>
+					</Icon>
+					<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-120.0785795772356,38.84650201026926,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
 </kml>
