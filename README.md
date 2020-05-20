@@ -14,8 +14,8 @@ errors or room for improvement! THIS IS WORK IN PROGRESS!
 I used [CalTopo][l8] as the primary interface to create the
 waypoints and shape data. [View my CalTopo Map here!](https://caltopo.com/m/RBH3)
 
-1. Using the [zone map][l6] from the Desolation Wilderness Volunteers
-[website][l4], I created a geospatial layer and aligned it as best I could and
+1. Using the [zone map][l6] from the [Desolation Wilderness Volunteers
+website][l4], I created a geospatial layer and aligned it as best I could and
 tediously created each zone as a polygon object by hand. I will update many more
 times in the future to improve accuracy and aesthetics.
 
