@@ -72,19 +72,22 @@ fined for being in the wrong place at the wrong time, or you are half-eaten by a
 bear and/or mountain lion and stashed away for a midnight snack near Lower Velma
 Lake (beautiful area, btw)... it's not my fault.**
 
-**Also I am NOT affiliated in any way with El Dorado National Forest, Lake Tahoe
-Basin Mgt Unit, Desolation Wilderness Volunteers, or any other government or
-commercial entity. This is a personal project that I work on in my spare time as
-a private outdoor enthusiast to help me with my own planning efforts for trips
-to one my favorite places to visit. You are welcome to use it, modify it, laugh
-at it, or contact me to contribute to it's accuracy or value. I do not claim
-ownership of any of the data or systems that I used to create the content, nor
-do I offer any warranty or guarantee of it's accuracy. I'm just a dude that
-loves the outdoors and helping others, so if you appreciate it... awesome!**
+**Also I am NOT affiliated in any way with Caltopo.com, Google, El Dorado
+National Forest, Lake Tahoe Basin Mgt Unit, Desolation Wilderness Volunteers, or
+any other government or commercial entity. This is a personal project that I
+work on in my spare time asa private outdoor enthusiast to help me with my own
+planning efforts for trips to one my favorite places to visit. You are welcome
+to use it, modify it, laugh at it, or contact me to contribute to it's accuracy
+or value. I do not claim ownership of any of the data or systems that I used to
+create the content, nor do I offer any warranty or guarantee of it's accuracy.
+I'm just a dude that loves the outdoors and helping others, so if you appreciate
+it... awesome!**
 
 **If you have any doubt about trusting this information, _don't use it._**
 
-
+## Maintainer
+* Gilbert Mendoza - gmendoza at gmail dot com
+  * Original Map Author and Maintainer
 
 [l1]: https://www.fs.usda.gov/detail/eldorado/specialplaces/?cid=fsbdev7_019062 "El Dorado National Forest"
 [l2]: https://www.fs.usda.gov/recarea/ltbmu/recarea/?recid=11786 "Lake Tahoe Basin Mgt Unit"
