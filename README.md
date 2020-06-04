@@ -19,16 +19,15 @@ website][l4], I created a geospatial layer and aligned it as best I could and
 tediously created each zone as a polygon object by hand. I will update many more
 times in the future to improve accuracy and aesthetics.
 
-2. I exported the CalTopo map to a KML, and then performed some light edits with
+2. I exported the CalTopo map to a GPX, and basically left it as-is.
+
+3. I exported the CalTopo map to a KML, and then performed some light edits with
 [Google Earth][l7] to produce a clean export:
   * Changed the name of the document
   * Added back the folder structure that is lost on CalTopo KML export.
   * Changed the sort-order of the waypoints (A-Z)
   * Added the reference zone map as a KML layer and aligned it by hand as best
   as I could (omg, PITA).
-
-
-3. I exported the CalTopo map to a GPX, and basically left it as-is.
 
 ## How to Use These Files
 Simply open the files using an application like Google Earth, Garmin Basecamp,
@@ -87,7 +86,7 @@ it... awesome!**
 
 ## Maintainer
 * Gilbert Mendoza - gmendoza at gmail dot com
-  * Original Map Author and Maintainer
+  * Original Caltopo Map Author and Maintainer
 
 [l1]: https://www.fs.usda.gov/detail/eldorado/specialplaces/?cid=fsbdev7_019062 "El Dorado National Forest"
 [l2]: https://www.fs.usda.gov/recarea/ltbmu/recarea/?recid=11786 "Lake Tahoe Basin Mgt Unit"
